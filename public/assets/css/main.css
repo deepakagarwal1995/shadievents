@@ -303,7 +303,7 @@ a, img {
 
 .kt-row-layout-inner,
 .kb-row-layout-wrap {
-    position: relative;height: 280px;
+    position: relative;height: 100vh;
     border: 0 solid transparent;
 }.kt-row-layout-inner:before,
 .kb-row-layout-wrap:before {
