@@ -47,10 +47,10 @@
 
 
 
-                                            <li><a href="{{route('portfolio')}}">PORTFOLIO</a></li>
-                                            <li class="logo-after-this"><a href="{{route('services')}}">SERVICES</a></li>
-                                            <li><a href="{{route('meet')}}">MEET THE CO.</a></li>
-                                            <li><a href="{{route('contact')}}">CONTACT US</a></li>
+                                            <li><a href="{{route('portfolio')}}"><span class="font">PORTFOLIO</span><span class="ifont">Our Work</span></a></li>
+                                            <li class="logo-after-this"><a href="{{route('services')}}"><span class="font">SERVICES</span><span class="ifont">What We Do</span></a></li>
+                                            <li><a href="{{route('meet')}}"><span class="font">Meet The SE.</span><span class="ifont">Hello</span></a></li>
+                                            <li><a href="{{route('contact')}}"><span class="font">Contact Us</span><span class="ifont">Let's Talk!</span></a></li>
                                         </ul>
                                     </nav>
                                 </div><!-- site-navigation end-->

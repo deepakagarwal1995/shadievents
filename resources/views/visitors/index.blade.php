@@ -11,14 +11,17 @@
                 <div class="wp-block-kadence-column kadence-column2_c3cb86-9a inner-column-1">
                     <div class="kt-inside-inner-col">
                         <h4 class="kt-adv-heading2_ea1f4d-ee wp-block-kadence-advancedheading" data-aos="fade">
-                            Innovative Wedding Planning + Remarkable Design
+                             Innovative Wedding Planning & Grandeur Events
                         </h4>
-                        <div style="height:19vw" aria-hidden="true" class="wp-block-spacer"></div>
+                        <div style="height:0" aria-hidden="true" class="wp-block-spacer"></div>
                         <div class="wp-block-kadence-image kb-image2_4b8530-6e aos-init" data-aos="fade">
                             <figure class="aligncenter size-large is-resized image-is-svg"><img loading="lazy"
                                     decoding="async"
                                     src="{{ config('app.url') }}/assets/images/white-logo-lg.png"
-                                    alt="" class="kb-img wp-image-115" style="    max-width: 100%;width: 521px;height: auto;"></figure>
+                                    alt="" class="kb-img wp-image-115" style="     max-width: 100%;
+    width: 469px;
+    height: auto;
+    margin-top: 20px;"></figure>
                         </div>
                     </div>
                 </div>
@@ -46,13 +49,12 @@
                                         <!--section title-->
                                         <div class="section-title">
                                             <div class="title-header">
-                                                <h2 class="title">CRAFTING LUXURY EVENTS ACROSS THE WORLD FOR OVER
-                                                    FIFTEEN YEARS.</h2>
+                                                <h2 class="title">CRAFTING LUXURY WEDDINGS ACROSS THE INDIA FOR OVER ELEVEN YEARS.</h2>
                                             </div>
                                             <div class="title-desc">
-                                                <h6 class="mt-5">AVAILABLE ANYWHERE THE PARTY TAKES YOU.</h6>
+                                                <h6 class="mt-5">AVAILABLE ANYWHERE THE Wedding TAKES YOU.</h6>
                                                 <p></p>
-                                                <h6>BASED IN THE MIDWEST.</h6>
+                                                <h6>BASED IN THE AGRA.</h6>
 
                                             </div>
                                         </div><!--section title end-->
@@ -89,18 +91,17 @@
                                 <div class="title-header mb-25">
                                     <h2 class="title">BIG MOMENTS REQUIRE BIG PLANS.</h2>
                                 </div>
-                                <h6>WHETHER IT’S A SNOWY CELEBRATION IN VAIL, A TEQUILA-FUELED DANCE FLOOR IN CABO, OR A
-                                    FULLY CUSTOM TENT ERECTED AT THEIR
-                                    HOME, OUR CLIENTS TRUST US TO CONSISTENTLY EXCEED EXPECTATIONS EACH AND EVERY TIME.
+                                <h6>Welcome to Shadi Events, where we believe in the magic of turning dreams into reality. With our expert
+team at your service, we specialize in curating weddings that transcend the ordinary. From the moment
+you share your vision with us, we embark on a journey to create an unforgettable experience that
+reflects your love story in every detail
                                 </h6>
 
-                                <h6>BOASTING A COMBINED THIRTY YEARS OF EXPERIENCE IN EVENT PLANNING, KATE + COMPANY HAS
-                                    THE EXPERTISE IN THE HOW AND IN THE
-                                    WHERE. WE’LL ELEVATE YOUR EVENT BEYOND YOUR WILDEST DREAMS. SETTING THE TONE WITH
-                                    YOUR INVITATIONS THROUGH THE VERY LAST
-                                    DANCE, OUR FIRM ENSURES EVERY ASPECT IS BRILLIANTLY DESIGNED AND FLAWLESSLY
-                                    EXECUTED.</h6>
-                                <h6>IN TURN, YOU SHINE AS THE IMPECCABLE HOST.</h6>
+                                <h6>At Shadi Events,From venue selection to decor design, vendor coordination to guest experience, we
+handle every aspect of your special day with care and creativity.</h6>
+                                <h6>With Shadi Events by your side, you can relax and enjoy every moment knowing that your wedding is in
+expert hands. Let us handle the logistics while you focus on creating memories that will last a lifetime.
+Because when it comes to your big day, nothing less than perfection will do.</h6>
                             </div><!--section title end-->
                         </div>
                     </div><!--row end-->
@@ -129,16 +130,16 @@
                                             class="has-inline-color has-gold-color">Who we are</mark></span></h2>
                                 <div class="title-header mb-25">
                                     <h3 class="title">EXECUTIVE LEVEL<br>
-                                        EVENT PRODUCERS.</h3>
+                                        WEDDINGS PLANNING.</h3>
                                 </div>
 
 
 
 
                                 <div class="pt-5">
-                                    <p>Since our inception in 2012, we have been at the forefront of delivering
+                                    <p>Since our inception in 2013, we have been at the forefront of delivering
                                         ultra-luxurious wedding planning and design
-                                        services to a global clientele. Our expertise has shown us that love knows no
+                                        services to a INDIA clientele. Our expertise has shown us that love knows no
                                         geographical limits, and our services
                                         are crafted to embody this boundless spirit.</p>
                                     <p>We excel in embracing sophisticated challenges, whether it’s orchestrating a
@@ -151,7 +152,7 @@
                                         dreams, ensuring every detail reflects the pinnacle of luxury and elegance.</p>
                                 </div>
                                 <div class="pt-5">
-                                    <a class="wp-block-button__link wp-element-button" href="#">Meet The Team</a>
+                                    <a class="wp-block-button__link wp-element-button" href="{{route('meet')}}">Meet The Team</a>
                                 </div>
                             </div>
                         </div>
@@ -159,12 +160,12 @@
                 </div>
             </section>
 
-            <section class="ttm-row contact-section clearfix pt-85 ">
+            <section class="ttm-row contact-section clearfix pt-85 gateway">
                 <div class="container">
                     <!--row-->
 
                     <div class="row">
-                        <div class="col-lg-4" data-aos="fade" data-aos-duration="1000" data-aos-delay="500"
+                        <div class="col-lg-4 pb-15" data-aos="fade" data-aos-duration="1000" data-aos-delay="500"
                             data-aos-easing="ease-in-out">
                             <div class="pr-25 res-991-pl-0 ">
                                 <!--section title-->
@@ -179,14 +180,17 @@
 
 
                                 <div class="pt-5">
-                                    <p>With a global reputation, we connect you with top-tier vendors known for
-                                        exceptional quality and service. We take a
-                                        personalized approach to every event ensuring yours is expertly tailored to you.
-                                        Whether it’s a standalone venue or a
-                                        tent concept, we’ve got you covered.</p>
+                                    <p>With a reputation spanning across India, we
+manage your needs by partnering with top-tier vendors renowned for their exceptional
+quality and service. Our personalized
+approach ensures that every aspect of your
+event is expertly tailored to your preferences.
+Whether you're envisioning a standalone
+venue or a unique tent concept, rest assured,
+we have you covered.</p>
                                 </div>
                                 <div class="pt-5">
-                                    <a class="wp-block-button__link wp-element-button" href="#">OUR SERVICES</a>
+                                    <a class="wp-block-button__link wp-element-button" href="{{route('services')}}">OUR SERVICES</a>
                                 </div>
                             </div>
                             <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
@@ -241,7 +245,7 @@
                                         of our discerning clients.</p>
                                 </div>
                                 <div class="pt-5">
-                                    <a class="wp-block-button__link wp-element-button" href="#">VIEW PORTFOLIO</a>
+                                    <a class="wp-block-button__link wp-element-button" href="{{route('portfolio')}}">VIEW PORTFOLIO</a>
                                 </div>
                             </div>
 
@@ -251,7 +255,7 @@
 
                 </div>
             </section>
-            <section class="ttm-row home-cta-section bg-img9 ttm-bgcolor-darkgrey clearfix mt-90">
+            <section class="ttm-row home-cta-section bg-img9 ttm-bgcolor-darkgrey clearfix mt-90 process">
                 <div class="container">
                     <!--row-->
                     <div class="row">
@@ -260,12 +264,13 @@
                                 <h2 class="wp-block-heading has-medium-font-size"><span class="script">Our Process</span></h2>
                                 <div class="section-title">
                                     <div class="title-header">
-                                        <h3>Our focus on precision and bespoke systems ensures your event’s success under our expert
-                                            guidance. At Kate + Co, experience personalized advice, honest insights, and a delightful approach.</h3>
+                                        <h3>With a reputation spanning across India, Shadi events manage your needs by partnering with top-tier vendors
+renowned for their exceptional quality and service. Our personalized approach ensures that every aspect of your
+event is expertly tailored to your preferences. Whether you're envisioning a standalone venue or a unique tent concept, rest assured, we have you covered.</h3>
                                     </div>
                                 </div>
                                 <a class="ttm-btn ttm-btn-size-md ttm-btn-shape-rounded ttm-btn-style-border ttm-icon-btn-right ttm-btn-color-white"
-                                    href="#">LEARN MORE</a>
+                                    href="{{route('services')}}">LEARN MORE</a>
                             </div>
                         </div>
                     </div> <!--row end-->

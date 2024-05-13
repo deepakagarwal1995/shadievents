@@ -1,4 +1,4 @@
-@extends('layouts.app', ['title' => 'Our Work | Shadievents'])
+@extends('layouts.app', ['title' => 'Our Services | Shadievents'])
 
 @section('head')
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
@@ -26,7 +26,143 @@
     <!--site-main start-->
     <div class="site-main">
 
+     <section class="ttm-row portfolio-section_3 clearfix">
+                <div class="container">
+                    <!--row-->
+                    <div class="row">
+                         <div class="col-sm-12 text-center">
 
+                                         <h1 class="page-title">Wedding with our expert services</h1>
+                                         <h6 class="page-subtitle">unlimited ways to make <span class="text-cursive-1">your </span> wedding grand and seamless</h6>
+                                             </div>
+
+
+
+
+                        <div class="ttm-box-col-wrapper col-lg-4 col-md-6 col-sm-6">
+                            <!--featured-imagebox-portfolio-->
+                            <div class="featured-imagebox featured-imagebox-portfolio style2">
+                                <div class="ttm-box-view-content-inner">
+                                    <!--featured-thumbnail-->
+                                    <div class="featured-thumbnail">
+                                        <img class="img-fluid" src="{{ config('app.url') }}/assets/images/SBB-83-1536x2048.jpg" alt="image">
+                                    </div> <!--featured-thumbnail end-->
+                                    <div class="ttm-media-link">
+
+                                        <a href="{{route('service-single')}}" class="ttm_link" tabindex="0">
+                                           Hospitality </a>
+                                    </div>
+                                </div>
+                                <div class="featured-content featured-content-portfolio">
+
+                                    <div class="featured-title">
+                                       <h5><a href="{{route('service-single')}}">Hospitality</a></h5>
+                                       <p class="t-cursive">Hospitality </p>
+                                    </div>
+                                </div>
+                            </div><!--featured-imagebox-portfolio end-->
+                        </div>
+
+                        <div class="ttm-box-col-wrapper col-lg-4 col-md-6 col-sm-6">
+                            <!--featured-imagebox-portfolio-->
+                            <div class="featured-imagebox featured-imagebox-portfolio style2">
+                                <div class="ttm-box-view-content-inner">
+                                    <!--featured-thumbnail-->
+                                    <div class="featured-thumbnail">
+                                        <img class="img-fluid" src="{{ config('app.url') }}/assets/images/MariaAli0594-3-1366x2048.jpg" alt="image">
+                                    </div> <!--featured-thumbnail end-->
+                                    <div class="ttm-media-link">
+
+                                        <a href="{{route('service-single')}}" class="ttm_link" tabindex="0">
+                                           Entertainment</a>
+                                    </div>
+                                </div>
+                                <div class="featured-content featured-content-portfolio">
+
+                                    <div class="featured-title">
+                                       <h5><a href="{{route('service-single')}}">Entertainment</a></h5>
+                                       <p class="t-cursive">Hospitality </p>
+                                    </div>
+                                </div>
+                            </div><!--featured-imagebox-portfolio end-->
+                        </div>
+                        <div class="ttm-box-col-wrapper col-lg-4 col-md-6 col-sm-6">
+                            <!--featured-imagebox-portfolio-->
+                            <div class="featured-imagebox featured-imagebox-portfolio style2">
+                                <div class="ttm-box-view-content-inner">
+                                    <!--featured-thumbnail-->
+                                    <div class="featured-thumbnail">
+                                        <img class="img-fluid" src="{{ config('app.url') }}/assets/images/Hannah_Wyatt_W0593-1536x2048.jpg" alt="image">
+                                    </div> <!--featured-thumbnail end-->
+                                    <div class="ttm-media-link">
+
+                                        <a href="{{route('service-single')}}" class="ttm_link" tabindex="0">
+                                          Decor</a>
+                                    </div>
+                                </div>
+                                <div class="featured-content featured-content-portfolio">
+
+                                    <div class="featured-title">
+                                       <h5><a href="{{route('service-single')}}">Decor</a></h5>
+                                       <p class="t-cursive">Hospitality </p>
+                                    </div>
+                                </div>
+                            </div><!--featured-imagebox-portfolio end-->
+                        </div>
+
+                           <div class="ttm-box-col-wrapper offset-lg-2 col-lg-4 col-md-6 col-sm-6">
+                            <!--featured-imagebox-portfolio-->
+                            <div class="featured-imagebox featured-imagebox-portfolio style2">
+                                <div class="ttm-box-view-content-inner">
+                                    <!--featured-thumbnail-->
+                                    <div class="featured-thumbnail">
+                                        <img class="img-fluid" src="{{ config('app.url') }}/assets/images/SBB-83-1536x2048.jpg" alt="image">
+                                    </div> <!--featured-thumbnail end-->
+                                    <div class="ttm-media-link">
+
+                                        <a href="{{route('service-single')}}" class="ttm_link" tabindex="0">
+                                          Photography</a>
+                                    </div>
+                                </div>
+                                <div class="featured-content featured-content-portfolio">
+
+                                    <div class="featured-title">
+                                       <h5><a href="{{route('service-single')}}">Photography</a></h5>
+                                       <p class="t-cursive">Hospitality </p>
+                                    </div>
+                                </div>
+                            </div><!--featured-imagebox-portfolio end-->
+                        </div>
+
+                        <div class="ttm-box-col-wrapper col-lg-4 col-md-6 col-sm-6">
+                            <!--featured-imagebox-portfolio-->
+                            <div class="featured-imagebox featured-imagebox-portfolio style2">
+                                <div class="ttm-box-view-content-inner">
+                                    <!--featured-thumbnail-->
+                                    <div class="featured-thumbnail">
+                                        <img class="img-fluid" src="{{ config('app.url') }}/assets/images/MariaAli0594-3-1366x2048.jpg" alt="image">
+                                    </div> <!--featured-thumbnail end-->
+                                    <div class="ttm-media-link">
+
+                                        <a href="{{route('service-single')}}" class="ttm_link" tabindex="0">
+                                           Invitation & Stationery</a>
+                                    </div>
+                                </div>
+                                <div class="featured-content featured-content-portfolio">
+
+                                    <div class="featured-title">
+                                       <h5><a href="{{route('service-single')}}">Invitation & Stationery</a></h5>
+                                        <p class="t-cursive">Hospitality </p>
+
+                                    </div>
+                                </div>
+                            </div><!--featured-imagebox-portfolio end-->
+                        </div>
+
+
+                    </div><!--row end-->
+                </div>
+            </section>
         <!--portfolio-section_3-->
         <section class="ttm-row portfolio-section_3 clearfix">
             <div class="container">
@@ -67,7 +203,8 @@
                 </div><!--row end-->
             </div>
         </section>
-        <section class="ttm-row about-section_1 clearfix kb-row-layout-id71_e8d40d-75">
+
+ <section class="ttm-row about-section_1 clearfix kb-row-layout-id71_e8d40d-75">
             <div class="container">
                 <!--row-->
                 <div class="row">
@@ -106,253 +243,7 @@
             </div>
         </section>
 
-        <div class="kb-row-layout-wrap kb-row-layout-id71_eee3bd-9d alignnone kt-row-has-bg wp-block-kadence-rowlayout">
-        </div>
-        <section class="ttm-row services-section_1 clearfix">
-
-            <div class="container">
-                <!--row-->
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="topse">
-                            <div class="row">
-                                <div class="col-lg-12">
-                                    <!--section title-->
-                                    <div class="section-title text-center">
-                                        <div class="title-header">
-                                            <h1 class="wp-block-heading has-large-font-size"><span class="script"><mark
-                                                        style="background-color:rgba(0, 0, 0, 0)"
-                                                        class="has-inline-color has-gold-color">Creative
-                                                        Direction</mark></span></h1>
-                                            <p>Guided by our Founder and Creative Director, Kate Turner, all designs begin
-                                                in-house. Kate leads color palette curation, event partner collaboration,
-                                                vendor selection, and the execution of a seamless, editorial-inspired
-                                                design. She’s a ruthless editor, fiercely protecting both the integrity of
-                                                your event and ensuring its flawless execution.</p>
-                                        </div>
-                                        <div class="title-header">
-
-                                            <h2 class="title">FEATURED SERVICES</h2>
-                                        </div>
-                                    </div><!--section title end-->
-                                </div>
-                            </div><!--row end-->
-                            <!--row-->
-                            <div class="row">
-                                <div class="col-lg-3 col-md-6 col-sm-12">
-                                    <!--featured-icon-box-->
-                                    <div class="featured-icon-box icon-align-top-content text-center style2">
-
-                                        <div class="featured-content">
-                                            <div class="featured-title">
-                                                <h6 class="wp-block-heading"
-                                                    style="margin-bottom:1em;letter-spacing:0.25em;line-height:1.75;text-transform:uppercase">
-                                                    Visual Inspiration</h6>
-                                            </div>
-                                            <div class="featured-desc">
-                                                <p style="    letter-spacing: 0;line-height: 1.5;font-size: 12px;">A look
-                                                    book filled with ideas and inspiration on everything from fashion to
-                                                    flowers so you can envision every aspect of the weekend.</p>
-                                            </div>
-
-                                        </div>
-                                    </div><!--featured-icon-box end-->
-                                </div>
-                                <div class="col-lg-3 col-md-6 col-sm-12">
-                                    <!--featured-icon-box-->
-                                    <div class="featured-icon-box icon-align-top-content text-center style2">
-
-                                        <div class="featured-content">
-                                            <div class="featured-title">
-                                                <h6 class="wp-block-heading"
-                                                    style="margin-bottom:1em;letter-spacing:0.25em;line-height:1.75;text-transform:uppercase">
-                                                    Visual Inspiration</h6>
-                                            </div>
-                                            <div class="featured-desc">
-                                                <p style="    letter-spacing: 0;line-height: 1.5;font-size: 12px;">A look
-                                                    book filled with ideas and inspiration on everything from fashion to
-                                                    flowers so you can envision every aspect of the weekend.</p>
-                                            </div>
-
-                                        </div>
-                                    </div><!--featured-icon-box end-->
-                                </div>
-                                <div class="col-lg-3 col-md-6 col-sm-12">
-                                    <!--featured-icon-box-->
-                                    <div class="featured-icon-box icon-align-top-content text-center style2">
-
-                                        <div class="featured-content">
-                                            <div class="featured-title">
-                                                <h6 class="wp-block-heading"
-                                                    style="margin-bottom:1em;letter-spacing:0.25em;line-height:1.75;text-transform:uppercase">
-                                                    Visual Inspiration</h6>
-                                            </div>
-                                            <div class="featured-desc">
-                                                <p style="    letter-spacing: 0;line-height: 1.5;font-size: 12px;">A look
-                                                    book filled with ideas and inspiration on everything from fashion to
-                                                    flowers so you can envision every aspect of the weekend.</p>
-                                            </div>
-
-                                        </div>
-                                    </div><!--featured-icon-box end-->
-                                </div>
-                                <div class="col-lg-3 col-md-6 col-sm-12">
-                                    <!--featured-icon-box-->
-                                    <div class="featured-icon-box icon-align-top-content text-center style2">
-
-                                        <div class="featured-content">
-                                            <div class="featured-title">
-                                                <h6 class="wp-block-heading"
-                                                    style="margin-bottom:1em;letter-spacing:0.25em;line-height:1.75;text-transform:uppercase">
-                                                    Visual Inspiration</h6>
-                                            </div>
-                                            <div class="featured-desc">
-                                                <p style="    letter-spacing: 0;line-height: 1.5;font-size: 12px;">A look
-                                                    book filled with ideas and inspiration on everything from fashion to
-                                                    flowers so you can envision every aspect of the weekend.</p>
-                                            </div>
-
-                                        </div>
-                                    </div><!--featured-icon-box end-->
-                                </div>
-
-                                <div class="offset-lg-2 col-lg-8 mt-50 text-center">
-                                    <div class="wp-block-group is-layout-constrained wp-container-core-group-layout-20 wp-block-group-is-layout-constrained"
-                                        style="padding-top:0px">
-                                        <blockquote class="wp-block-quote">
-                                            <p>“You have seriously outdone yourselves and exceeded every expectation and
-                                                vision I had by a million! I can only imagine the amount of hours and energy
-                                                you put into making this day absolutely stunning and smooth-sailing, and for
-                                                that I thank you. So many people said – This is so you! – You made all my
-                                                dreams come true!”</p>
-                                            <cite>– Katherine James, Bride</cite>
-                                        </blockquote>
-                                    </div>
-                                </div>
-
-
-                            </div><!--row end-->
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--portfolio-section_3 end-->
- <div class="kb-row-layout-wrap kb-row-layout-id71_ed91f3-16 alignnone kt-row-has-bg wp-block-kadence-rowlayout">
-        </div>
-        <section class="ttm-row services-section_1 clearfix">
-
-            <div class="container">
-                <!--row-->
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="topse">
-                            <div class="row">
-                                <div class="col-lg-12">
-                                    <!--section title-->
-                                    <div class="section-title text-center">
-                                        <div class="title-header">
-                                            <h1 class="wp-block-heading has-large-font-size"><span class="script"><mark
-                                                        style="background-color:rgba(0, 0, 0, 0)"
-                                                        class="has-inline-color has-gold-color">Event Production</mark></span></h1>
-                                            <p>Our onsite standards are meticulous. We measure each chair and place setting, steam linens to perfection, fold and iron napkins with precision, and hand-check every detail, ensuring flawless execution.</p>
-                                        </div>
-                                        <div class="title-header">
-
-                                            <h2 class="title">FEATURED SERVICES</h2>
-                                        </div>
-                                    </div><!--section title end-->
-                                </div>
-                            </div><!--row end-->
-                            <!--row-->
-                            <div class="row">
-                                <div class="col-lg-3 col-md-6 col-sm-12">
-                                    <!--featured-icon-box-->
-                                    <div class="featured-icon-box icon-align-top-content text-center style2">
-
-                                        <div class="featured-content">
-                                            <div class="featured-title">
-                                                <h6 class="wp-block-heading"
-                                                    style="margin-bottom:1em;letter-spacing:0.25em;line-height:1.75;text-transform:uppercase">
-                                                    Visual Inspiration</h6>
-                                            </div>
-                                            <div class="featured-desc">
-                                                <p style="    letter-spacing: 0;line-height: 1.5;font-size: 12px;">A look
-                                                    book filled with ideas and inspiration on everything from fashion to
-                                                    flowers so you can envision every aspect of the weekend.</p>
-                                            </div>
-
-                                        </div>
-                                    </div><!--featured-icon-box end-->
-                                </div>
-                                <div class="col-lg-3 col-md-6 col-sm-12">
-                                    <!--featured-icon-box-->
-                                    <div class="featured-icon-box icon-align-top-content text-center style2">
-
-                                        <div class="featured-content">
-                                            <div class="featured-title">
-                                                <h6 class="wp-block-heading"
-                                                    style="margin-bottom:1em;letter-spacing:0.25em;line-height:1.75;text-transform:uppercase">
-                                                    Visual Inspiration</h6>
-                                            </div>
-                                            <div class="featured-desc">
-                                                <p style="    letter-spacing: 0;line-height: 1.5;font-size: 12px;">A look
-                                                    book filled with ideas and inspiration on everything from fashion to
-                                                    flowers so you can envision every aspect of the weekend.</p>
-                                            </div>
-
-                                        </div>
-                                    </div><!--featured-icon-box end-->
-                                </div>
-                                <div class="col-lg-3 col-md-6 col-sm-12">
-                                    <!--featured-icon-box-->
-                                    <div class="featured-icon-box icon-align-top-content text-center style2">
-
-                                        <div class="featured-content">
-                                            <div class="featured-title">
-                                                <h6 class="wp-block-heading"
-                                                    style="margin-bottom:1em;letter-spacing:0.25em;line-height:1.75;text-transform:uppercase">
-                                                    Visual Inspiration</h6>
-                                            </div>
-                                            <div class="featured-desc">
-                                                <p style="    letter-spacing: 0;line-height: 1.5;font-size: 12px;">A look
-                                                    book filled with ideas and inspiration on everything from fashion to
-                                                    flowers so you can envision every aspect of the weekend.</p>
-                                            </div>
-
-                                        </div>
-                                    </div><!--featured-icon-box end-->
-                                </div>
-                                <div class="col-lg-3 col-md-6 col-sm-12">
-                                    <!--featured-icon-box-->
-                                    <div class="featured-icon-box icon-align-top-content text-center style2">
-
-                                        <div class="featured-content">
-                                            <div class="featured-title">
-                                                <h6 class="wp-block-heading"
-                                                    style="margin-bottom:1em;letter-spacing:0.25em;line-height:1.75;text-transform:uppercase">
-                                                    Visual Inspiration</h6>
-                                            </div>
-                                            <div class="featured-desc">
-                                                <p style="    letter-spacing: 0;line-height: 1.5;font-size: 12px;">A look
-                                                    book filled with ideas and inspiration on everything from fashion to
-                                                    flowers so you can envision every aspect of the weekend.</p>
-                                            </div>
-
-                                        </div>
-                                    </div><!--featured-icon-box end-->
-                                </div>
-
-
-
-
-                            </div><!--row end-->
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-           <section class="ttm-row home-cta-section bg-img9 ttm-bgcolor-darkgrey clearfix mt-90">
+           <section class="ttm-row home-cta-section bg-img9 ttm-bgcolor-darkgrey clearfix mt-0">
                 <div class="container">
                     <!--row-->
                     <div class="row">
@@ -365,7 +256,7 @@
                                     </div>
                                 </div>
                                 <a class="ttm-btn ttm-btn-size-md ttm-btn-shape-rounded ttm-btn-style-border ttm-icon-btn-right ttm-btn-color-white"
-                                    href="#">LEARN MORE</a>
+                                    href="{{route('contact')}}">Get In Touch</a>
                             </div>
                         </div>
                     </div> <!--row end-->

@@ -30,9 +30,9 @@ nav.main-menu .mega-menu-item.megamenu-fw .mega-submenu {
 }
 
 
-nav.main-menu ul { 
-  padding: 0px; 
-  margin: 0px; 
+nav.main-menu ul {
+  padding: 0px;
+  margin: 0px;
   list-style: none;
   position: relative;
 }
@@ -101,7 +101,7 @@ ul.menu-col li a:focus{
 =================================*/
 
 @media (min-width: 1200px) {
-    
+
     nav.main-menu li.mega-menu-item ul.mega-submenu li ul {
         left: 100%;
         top: 0;
@@ -113,7 +113,7 @@ ul.menu-col li a:focus{
     }
     nav.main-menu ul.menu > li > a{
 
-        
+
         display: block;
         margin: 0;
         padding: 0px 15px 0px 15px;
@@ -138,29 +138,7 @@ ul.menu-col li a:focus{
     -o-transform: scale(1,1);
     transform: scale(1,1);
     }
-   nav.main-menu ul.menu > li > a:before{
-   content: "";
-   position: absolute;
-   left: 15px;
-   right: 15px;
-   bottom: 38px;
-   margin: auto;
-   height: 1px;
-   transform-origin: right center;
-   -webkit-transform-origin: right center;
-   -webkit-transform: scale(0,1);
-   -khtml-transform: scale(0,1);
-   -moz-transform: scale(0,1);
-   -ms-transform: scale(0,1);
-   -o-transform: scale(0,1);
-   transform: scale(0,1);
-   -webkit-transition: transform .25s cubic-bezier(.37,.31,.2,.85);
-   -khtml-transition: transform .25s cubic-bezier(.37,.31,.2,.85);
-   -moz-transition: transform .25s cubic-bezier(.37,.31,.2,.85);
-   -ms-transition: transform .25s cubic-bezier(.37,.31,.2,.85);
-   -o-transition: transform .25s cubic-bezier(.37,.31,.2,.85);
-   transition: transform .25s cubic-bezier(.37,.31,.2,.85);
-   }
+
 nav.main-menu ul.menu > li:hover> a:before{
         transform-origin: left center;
     -webkit-transform-origin: left center;
@@ -198,7 +176,7 @@ nav.main-menu ul.menu > li:hover> a:before{
     nav.main-menu ul.mega-submenu.megamenu-content .col-menu:last-child{
         border-right: none;
     }
-    nav.main-menu ul.mega-submenu.megamenu-content .content ul.menu-col li:last-child a{ 
+    nav.main-menu ul.mega-submenu.megamenu-content .content ul.menu-col li:last-child a{
         border-bottom: unset;
     }
     nav.main-menu li.mega-menu-item.on ul.mega-submenu.megamenu-content .content{
@@ -290,7 +268,7 @@ nav.main-menu ul.menu > li:hover> a:before{
         display: block;
         max-height: 10000px;
     }
-    nav.main-menu ul.menu, nav.main-menu ul.menu > li{ 
+    nav.main-menu ul.menu, nav.main-menu ul.menu > li{
         display: block;
         position: relative;
     }

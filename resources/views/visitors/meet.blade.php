@@ -1,4 +1,4 @@
-@extends('layouts.app', ['title' =>'Our Work | Shadievents'])
+@extends('layouts.app', ['title' =>'Meet The SE. | Shadievents'])
 
 @section('content')
 

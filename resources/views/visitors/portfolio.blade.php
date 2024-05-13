@@ -31,7 +31,7 @@
                          <div class="col-sm-12 text-center">
 
                                          <h1 class="page-title">It’s all in the details</h1>
-                                         <h6 class="page-subtitle">unlimited ways to make <span class="text-cursive-1">your </span> event seamless + personal</h6>
+                                         <h6 class="page-subtitle">unlimited ways to make <span class="text-cursive-1">your </span> wedding grand and seamless</h6>
                                              </div>
 
 
@@ -47,14 +47,14 @@
                                     </div> <!--featured-thumbnail end-->
                                     <div class="ttm-media-link">
 
-                                        <a href="best-florists.html" class="ttm_link" tabindex="0">
+                                        <a href="{{route('portfolio-single')}}" class="ttm_link" tabindex="0">
                                            Sabrina + Brad</a>
                                     </div>
                                 </div>
                                 <div class="featured-content featured-content-portfolio">
 
                                     <div class="featured-title">
-                                       <h5><a href="#">INTIMATE BALLROOM AFFAIR</a></h5>
+                                       <h5><a href="{{route('portfolio-single')}}">INTIMATE BALLROOM AFFAIR</a></h5>
                                        <p class="t-cursive">as seen in The Knot </p>
                                     </div>
                                 </div>
@@ -71,7 +71,7 @@
                                     </div> <!--featured-thumbnail end-->
                                     <div class="ttm-media-link">
 
-                                        <a href="best-florists.html" class="ttm_link" tabindex="0">
+                                        <a href="{{route('portfolio-single')}}" class="ttm_link" tabindex="0">
                                            Sabrina + Brad</a>
                                     </div>
                                 </div>
@@ -94,7 +94,7 @@
                                     </div> <!--featured-thumbnail end-->
                                     <div class="ttm-media-link">
 
-                                        <a href="best-florists.html" class="ttm_link" tabindex="0">
+                                        <a href="{{route('portfolio-single')}}" class="ttm_link" tabindex="0">
                                            Sabrina + Brad</a>
                                     </div>
                                 </div>
@@ -118,7 +118,7 @@
                                     </div> <!--featured-thumbnail end-->
                                     <div class="ttm-media-link">
 
-                                        <a href="best-florists.html" class="ttm_link" tabindex="0">
+                                        <a href="{{route('portfolio-single')}}" class="ttm_link" tabindex="0">
                                            Sabrina + Brad</a>
                                     </div>
                                 </div>
@@ -142,7 +142,7 @@
                                     </div> <!--featured-thumbnail end-->
                                     <div class="ttm-media-link">
 
-                                        <a href="best-florists.html" class="ttm_link" tabindex="0">
+                                        <a href="{{route('portfolio-single')}}" class="ttm_link" tabindex="0">
                                            Sabrina + Brad</a>
                                     </div>
                                 </div>
@@ -165,7 +165,7 @@
                                     </div> <!--featured-thumbnail end-->
                                     <div class="ttm-media-link">
 
-                                        <a href="best-florists.html" class="ttm_link" tabindex="0">
+                                        <a href="{{route('portfolio-single')}}" class="ttm_link" tabindex="0">
                                            Sabrina + Brad</a>
                                     </div>
                                 </div>

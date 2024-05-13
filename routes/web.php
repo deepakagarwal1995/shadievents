@@ -22,6 +22,12 @@ Route::get('/', function () {
 Route::get('/portfolio', function () {
     return view('visitors.portfolio');
 })->name('portfolio');
+Route::get('/portfolio-single', function () {
+    return view('visitors.portfolio-single');
+})->name('portfolio-single');
+Route::get('/service-single', function () {
+    return view('visitors.service-single');
+})->name('service-single');
 Route::get('/services', function () {
     return view('visitors.services');
 })->name('services');

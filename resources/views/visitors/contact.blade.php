@@ -1,4 +1,4 @@
-@extends('layouts.app', ['title' =>'Our Work | Shadievents'])
+@extends('layouts.app', ['title' =>'Contact Us | Shadievents'])
 
 @section('content')
 
@@ -32,26 +32,26 @@
                                 <div class="row no-gutters">
                                     <div class="col-lg-4 col-md-4 col-sm-12">
                                         <div class="ttm-bgcolor-white p-35 pb-25 box-shadow">
-                                            <h5>Address One</h5>
-                                            <p>4578 Heverly Rd Crooklyn New York 12345 United States.</p>
+                                            <h5>Address</h5>
+                                            <p>503 Besera Heights, Fatehabad Road, Near Jaypee Palace, Agra</p>
                                             <div class="ttm-horizontal_sep width-100 mb-20"></div>
-                                            <a class="ttm-btn-color-skincolor" href="#">View On Google Map</a>
+                                            <a class="ttm-btn-color-skincolor" href="https://maps.app.goo.gl/SYwqiaEyKJbpfeSw9" target="_blank">View On Google Map</a>
                                         </div>
                                     </div>
                                     <div class="col-lg-4 col-md-4 col-sm-12">
                                         <div class="ttm-bgcolor-skincolor p-35 pb-25 box-shadow">
-                                            <h5>Address Two</h5>
-                                            <p>4578 Heverly Rd Crooklyn New York 12345 United States.</p>
+                                            <h5>Contact</h5>
+                                            <p>+91 88688 99888 <br> +91 75004 66141</p>
                                             <div class="ttm-horizontal_sep width-100 mb-20"></div>
-                                            <a class="ttm-btn-color-white" href="#">View On Google Map</a>
+                                            <a class="ttm-btn-color-white" href="https://api.whatsapp.com/send?phone=918868899888&text=Hello,%20I%20have%20a%20question" target="_blank">Whatsapp Chat</a>
                                         </div>
                                     </div>
                                     <div class="col-lg-4 col-md-4 col-sm-12">
                                         <div class="ttm-bgcolor-white p-35 pb-25 box-shadow">
                                             <h5>Email & Office Hours</h5>
-                                            <p>Mon – Sat: 9.00am to 7.00pm<br>Sunday: Closed</p>
+                                            <p>Mon – Sun:<br> 9.00am to 7.00pm</p>
                                             <div class="ttm-horizontal_sep width-100 mb-20"></div>
-                                            <a class="ttm-btn-color-skincolor" href="#">wedco@wedding.com</a>
+                                            <a class="ttm-btn-color-skincolor" href="mailto:shadievents8@gmail.com">shadievents8@gmail.com</a>
                                         </div>
                                     </div>
                                 </div>
@@ -76,11 +76,11 @@
                                             <!-- section title -->
                                             <div class="section-title without-seperator">
                                                 <div class="title-header">
-                                                    <h5>Wedding Attend</h5>
+
                                                     <h2 class="title">It’s Your Turn</h2>
                                                 </div>
                                             </div><!-- section title end -->
-                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                            <p>"Ready to make your dream wedding a reality? Contact us today!"</p>
                                             <!-- featured-icon-box -->
                                             <div class="featured-icon-box icon-align-before-content icon-ver_align-top style8">
                                                 <div class="featured-icon">
@@ -93,7 +93,7 @@
                                                         <h5>Location</h5>
                                                     </div>
                                                     <div class="featured-desc">
-                                                        <p>4578 Beverly Rd<br>Brooklyn NewYork</p>
+                                                        <p>503 Besera Heights, Fatehabad Road, <br>Near Jaypee Palace, Agra</p>
                                                     </div>
                                                 </div>
                                             </div><!-- featured-icon-box end -->
@@ -109,7 +109,7 @@
                                                         <h5>Call Or Email</h5>
                                                     </div>
                                                     <div class="featured-desc">
-                                                        <p>+ (123) 456 7890<br>info@wedding.com</p>
+                                                        <p><a href="tel:08868899888"> +91 88688 99888 </a><br> <a href="tel:07500466141">+91 75004 66141</a><br><a href="mailto:shadievents8@gmail.com">shadievents8@gmail.com</a></p>
                                                     </div>
                                                 </div>
                                             </div><!-- featured-icon-box end -->
@@ -125,7 +125,7 @@
                                                         <h5>Office Hours</h5>
                                                     </div>
                                                     <div class="featured-desc">
-                                                        <p>Mon – Sat: 9.00am to 7.00pm<br>Sunday: Closed</p>
+                                                        <p>Mon – Sun: 9.00am to 7.00pm</p>
                                                     </div>
                                                 </div>
                                             </div><!-- featured-icon-box end -->
@@ -160,9 +160,7 @@
                                                     </label>
                                                 </div>
                                             </div>
-                                            <label>
-                                                <span class="text-input"><input name="phone" type="text" value="" placeholder="Subject" required="required"></span>
-                                            </label>
+
                                             <label>
                                                 <span class="text-input"><textarea name="message" rows="4" placeholder="Your Messages" required="required"></textarea></span>
                                             </label>
@@ -179,7 +177,7 @@
 
 
             <!--google_map-->
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56778.82235299726!2d77.89286322167972!3d27.197905800000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397477999b41bab1%3A0xe4b7705834dd87ad!2sShadi%20Events!5e0!3m2!1sen!2sin!4v1715000591636!5m2!1sen!2sin" width="100%" height="380" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3550.2127765139985!2d78.06996353677144!3d27.14959478810317!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39746cf610567e65%3A0x46ae23f8054d6702!2sShadi%20Events!5e0!3m2!1sen!2sin!4v1715598064002!5m2!1sen!2sin" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
             <!--portfolio-section_3 end-->
 
