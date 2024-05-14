@@ -91,14 +91,14 @@
                     <div class="col-lg-12 col-md-12 col-sm-12 mt-25">
                         <div class="owl-carousel">
                             <div class="item">
-                                <img src="{{ config('app.url') }}/assets/images/Kelsey-Brayden-251-1536x1025.jpg"
+                                <img src="{{ config('app.url') }}/assets/images/141701139_3321772617928757_314765771726344711_n.jpg"
                                     class="img-fluid">
                             </div>
                             <div class="item">
-                                <img src="{{ config('app.url') }}/assets/images/MN-0512-1536x1024.jpg" class="img-fluid">
+                                <img src="{{ config('app.url') }}/assets/images/DSC04245.jpg" class="img-fluid">
                             </div>
                             <div class="item">
-                                <img src="{{ config('app.url') }}/assets/images/Portraits_JulianaPorter_CatherineRhodesPhotography-383-Edit.jpg"
+                                <img src="{{ config('app.url') }}/assets/images/A42I7032.jpg"
                                     class="img-fluid">
                             </div>
 
