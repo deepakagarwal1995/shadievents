@@ -1,4 +1,4 @@
-@extends('layouts.app', ['title' => 'Our Work | Shadievents'])
+@extends('layouts.app', ['title' => $title])
 
 @section('content')
     <!--page-title-->
@@ -9,7 +9,7 @@
                 <div class="row align-items-center">
                     <div class="col-lg-12">
                         <div class="page-title-heading">
-                            <h2 class="title"> Hospitality </h2>
+                            <h2 class="title"> {{$service->title}} </h2>
                         </div>
                     </div>
                 </div>
@@ -29,77 +29,25 @@
                 <!--row-->
                 <div class="row">
                     <div class="col-sm-12 ">
-                        <p>"Welcome to Shadi Events, where we transform your wedding dreams into cherished realities, one
-                            exquisite detail at a time.
-                            Imagine a seamless journey from 'I do' to 'happily ever after,' guided by our team of dedicated
-                            professionals who excel in the art of hospitality.
-                            RSVP Calling and Management:
-                            Leave the logistics to us. Our comprehensive RSVP calling and management services ensure that
-                            your guest list is meticulously curated and precisely managed, allowing you to focus on the joy
-                            of your impending union.
-                            Room Management:
-                            From elegant ballrooms to intimate garden settings, we meticulously oversee every aspect of room
-                            management to create the perfect ambiance for your celebration. Our attention to detail ensures
-                            that every space
-                            reects your unique style and vision.
-                            Travel Management:
-                            Whether your guests are traveling from near or far, we handle all aspects of travel management
-                            with nesse and expertise. From accommodations to transportation, we ensure that your guests
-                            arrive stress-free and
-                            ready to celebrate your love.
-                            Vendor Coordination:
-                            We understand that every vendor plays a crucial role in bringing your wedding vision to life.
-                            Our team coordinates seamlessly with a network of trusted vendors, ensuring that every aspect of
-                            your special day exceeds
-                            your expectations.
-                            Culinary Delights:<br>
-                            Indulge in a culinary journey that delights the senses and leaves a lasting impression on your
-                            guests. From mouthwatering menus to personalized cocktails, our culinary experts craft an
-                            unforgettable dining experience
-                            tailored to your tastes.
-                            Guest Experience:
-                            Your guests are our priority. From warm welcomes to personalized touches, we ensure that every
-                            guest feels valued and appreciated, creating a memorable experience for all who attend.
-                            At Shadi Events, we don't just plan weddings—we curate unforgettable experiences that celebrate
-                            your love story in all its beauty and splendor. Join us, and let your journey to 'happily ever
-                            after' begin."</p>
+                        {!! $service->descr !!}
 
                     </div>
 
 
-                    <div class="offset-lg-2 col-lg-8 ">
+                    <div class="offset-lg-1 col-lg-10 ">
                         <div class="row">
-                            <div class="ttm-box-col-wrapper col-lg-4 col-md-6 col-sm-6 p-1">
-                                <a data-gal="prettyPhoto[gallery1]" title="Marketing Strategy"
-                                    href="{{ config('app.url') }}/assets/images/SBB-83-1536x2048.jpg" data-rel="prettyPhoto"
-                                    tabindex="0">
-                                    <img class="img-fluid" src="{{ config('app.url') }}/assets/images/SBB-83-1536x2048.jpg"
-                                        alt="image">
-                                </a>
-                                <!--featured-imagebox-portfolio-->
+                              @foreach(json_decode($service->gallery, true) as $image)
+<div class="ttm-box-col-wrapper col-lg-4 col-md-6 col-sm-6 p-1">
+                        <a data-gal="prettyPhoto[gallery1]" title="{{$service->title}}"
+                            href="{{ Voyager::image($image) }}" data-rel="prettyPhoto"
+                            tabindex="0">
+                            <img class="img-fluid" src="{{ Voyager::image($image) }}"
+                                alt="{{$service->title}}">
+                        </a>
+                        <!--featured-imagebox-portfolio-->
 
-                            </div>
-                            <div class="ttm-box-col-wrapper col-lg-4 col-md-6 col-sm-6 p-1">
-                                <a data-gal="prettyPhoto[gallery1]" title="Marketing Strategy"
-                                    href="{{ config('app.url') }}/assets/images/SBB-83-1536x2048.jpg" data-rel="prettyPhoto"
-                                    tabindex="0">
-                                    <img class="img-fluid" src="{{ config('app.url') }}/assets/images/SBB-83-1536x2048.jpg"
-                                        alt="image">
-                                </a>
-                                <!--featured-imagebox-portfolio-->
-
-                            </div>
-                            <div class="ttm-box-col-wrapper col-lg-4 col-md-6 col-sm-6 p-1">
-                                <a data-gal="prettyPhoto[gallery1]" title="Marketing Strategy"
-                                    href="{{ config('app.url') }}/assets/images/SBB-83-1536x2048.jpg" data-rel="prettyPhoto"
-                                    tabindex="0">
-                                    <img class="img-fluid" src="{{ config('app.url') }}/assets/images/SBB-83-1536x2048.jpg"
-                                        alt="image">
-                                </a>
-                                <!--featured-imagebox-portfolio-->
-
-                            </div>
-
+                    </div>
+@endforeach
 
 
                         </div><!--row end-->

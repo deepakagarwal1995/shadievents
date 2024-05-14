@@ -1,10 +1,10 @@
-@extends('layouts.app', ['title' =>'Wedding Planner in Agra | Shadievents'])
+@extends('layouts.app', ['title' =>$title])
 
 @section('headerTop')
  <div class="kb-row-layout-wrap kb-row-layout-id2_97e2e6-e4 alignnone wp-block-kadence-rowlayout" id="home_hero">
             <div class="kb-blocks-bg-video-container"><video class="kb-blocks-bg-video" id="bg-row-video-2_97e2e6-e4"
                     playsinline="" muted="" loop=""
-                    src="{{ config('app.url') }}/assets/video/Website-promo-SE5-sm.mp4"
+                    src="{{ config('app.url') }}/assets/video/Web-promo-2.mp4"
                     autoplay=""></video></div>
             <div
                 class="kt-row-column-wrap kt-has-1-columns kt-row-layout-equal kt-tab-layout-inherit kt-mobile-layout-row kt-row-valign-top">

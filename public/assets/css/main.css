@@ -1782,7 +1782,7 @@ nav.main-menu ul.menu ul.mega-submenu li:hover > a:before { opacity: 1; }
 .footer-logo img {
     max-height: 55px;
     width: auto;
-}.kt-inside-inner-col{
+}.kt-inside-inner-col8{
     max-width: 788px;
         width: 100%;
         margin: auto;
@@ -1790,7 +1790,13 @@ nav.main-menu ul.menu ul.mega-submenu li:hover > a:before { opacity: 1; }
         box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 14px 0px;
         padding: 10px;position: relative;
             z-index: 10;
-}.kt-inside-inner-col .wp-block-kadence-column{
+}
+.ttm-box-col-wrapper img{
+        width: 100%;
+            height: 470px;
+            object-fit: cover;
+}
+.kt-inside-inner-col8 .wp-block-kadence-column{
         border: 1px solid #ad8400;
             padding: 10px;
             text-align: center;

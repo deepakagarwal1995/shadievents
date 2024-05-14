@@ -1,4 +1,4 @@
-@extends('layouts.app', ['title' => 'Our Services | Shadievents'])
+@extends('layouts.app', ['title' => $title])
 
 @section('head')
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
@@ -39,125 +39,35 @@
 
 
 
+ @foreach ($services as $row)
                         <div class="ttm-box-col-wrapper col-lg-4 col-md-6 col-sm-6">
                             <!--featured-imagebox-portfolio-->
                             <div class="featured-imagebox featured-imagebox-portfolio style2">
                                 <div class="ttm-box-view-content-inner">
                                     <!--featured-thumbnail-->
                                     <div class="featured-thumbnail">
-                                        <img class="img-fluid" src="{{ config('app.url') }}/assets/images/SBB-83-1536x2048.jpg" alt="image">
+                                        <img class="img-fluid" src="{{ Voyager::image( thumbnail($row->mainImage,'medium') ) }}" alt="image">
                                     </div> <!--featured-thumbnail end-->
                                     <div class="ttm-media-link">
 
-                                        <a href="{{route('service-single')}}" class="ttm_link" tabindex="0">
-                                           Hospitality </a>
+                                        <a href="{{route('service',$row->slug)}}" class="ttm_link" tabindex="0">
+                                           {{$row->title}}</a>
                                     </div>
                                 </div>
                                 <div class="featured-content featured-content-portfolio">
 
                                     <div class="featured-title">
-                                       <h5><a href="{{route('service-single')}}">Hospitality</a></h5>
-                                       <p class="t-cursive">Hospitality </p>
+                                       <h5><a href="{{route('service',$row->slug)}}">{{$row->title}}</a></h5>
+                                       <p class="t-cursive">{{$row->subtitle}} </p>
                                     </div>
                                 </div>
                             </div><!--featured-imagebox-portfolio end-->
                         </div>
 
-                        <div class="ttm-box-col-wrapper col-lg-4 col-md-6 col-sm-6">
-                            <!--featured-imagebox-portfolio-->
-                            <div class="featured-imagebox featured-imagebox-portfolio style2">
-                                <div class="ttm-box-view-content-inner">
-                                    <!--featured-thumbnail-->
-                                    <div class="featured-thumbnail">
-                                        <img class="img-fluid" src="{{ config('app.url') }}/assets/images/MariaAli0594-3-1366x2048.jpg" alt="image">
-                                    </div> <!--featured-thumbnail end-->
-                                    <div class="ttm-media-link">
+                       @endforeach
 
-                                        <a href="{{route('service-single')}}" class="ttm_link" tabindex="0">
-                                           Entertainment</a>
-                                    </div>
-                                </div>
-                                <div class="featured-content featured-content-portfolio">
 
-                                    <div class="featured-title">
-                                       <h5><a href="{{route('service-single')}}">Entertainment</a></h5>
-                                       <p class="t-cursive">Hospitality </p>
-                                    </div>
-                                </div>
-                            </div><!--featured-imagebox-portfolio end-->
-                        </div>
-                        <div class="ttm-box-col-wrapper col-lg-4 col-md-6 col-sm-6">
-                            <!--featured-imagebox-portfolio-->
-                            <div class="featured-imagebox featured-imagebox-portfolio style2">
-                                <div class="ttm-box-view-content-inner">
-                                    <!--featured-thumbnail-->
-                                    <div class="featured-thumbnail">
-                                        <img class="img-fluid" src="{{ config('app.url') }}/assets/images/Hannah_Wyatt_W0593-1536x2048.jpg" alt="image">
-                                    </div> <!--featured-thumbnail end-->
-                                    <div class="ttm-media-link">
 
-                                        <a href="{{route('service-single')}}" class="ttm_link" tabindex="0">
-                                          Decor</a>
-                                    </div>
-                                </div>
-                                <div class="featured-content featured-content-portfolio">
-
-                                    <div class="featured-title">
-                                       <h5><a href="{{route('service-single')}}">Decor</a></h5>
-                                       <p class="t-cursive">Hospitality </p>
-                                    </div>
-                                </div>
-                            </div><!--featured-imagebox-portfolio end-->
-                        </div>
-
-                           <div class="ttm-box-col-wrapper offset-lg-2 col-lg-4 col-md-6 col-sm-6">
-                            <!--featured-imagebox-portfolio-->
-                            <div class="featured-imagebox featured-imagebox-portfolio style2">
-                                <div class="ttm-box-view-content-inner">
-                                    <!--featured-thumbnail-->
-                                    <div class="featured-thumbnail">
-                                        <img class="img-fluid" src="{{ config('app.url') }}/assets/images/SBB-83-1536x2048.jpg" alt="image">
-                                    </div> <!--featured-thumbnail end-->
-                                    <div class="ttm-media-link">
-
-                                        <a href="{{route('service-single')}}" class="ttm_link" tabindex="0">
-                                          Photography</a>
-                                    </div>
-                                </div>
-                                <div class="featured-content featured-content-portfolio">
-
-                                    <div class="featured-title">
-                                       <h5><a href="{{route('service-single')}}">Photography</a></h5>
-                                       <p class="t-cursive">Hospitality </p>
-                                    </div>
-                                </div>
-                            </div><!--featured-imagebox-portfolio end-->
-                        </div>
-
-                        <div class="ttm-box-col-wrapper col-lg-4 col-md-6 col-sm-6">
-                            <!--featured-imagebox-portfolio-->
-                            <div class="featured-imagebox featured-imagebox-portfolio style2">
-                                <div class="ttm-box-view-content-inner">
-                                    <!--featured-thumbnail-->
-                                    <div class="featured-thumbnail">
-                                        <img class="img-fluid" src="{{ config('app.url') }}/assets/images/MariaAli0594-3-1366x2048.jpg" alt="image">
-                                    </div> <!--featured-thumbnail end-->
-                                    <div class="ttm-media-link">
-
-                                        <a href="{{route('service-single')}}" class="ttm_link" tabindex="0">
-                                           Invitation & Stationery</a>
-                                    </div>
-                                </div>
-                                <div class="featured-content featured-content-portfolio">
-
-                                    <div class="featured-title">
-                                       <h5><a href="{{route('service-single')}}">Invitation & Stationery</a></h5>
-                                        <p class="t-cursive">Hospitality </p>
-
-                                    </div>
-                                </div>
-                            </div><!--featured-imagebox-portfolio end-->
-                        </div>
 
 
                     </div><!--row end-->

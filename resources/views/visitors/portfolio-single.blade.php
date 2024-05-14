@@ -1,4 +1,4 @@
-@extends('layouts.app', ['title' => 'Our Work | Shadievents'])
+@extends('layouts.app', ['title' => $title])
 
 @section('content')
     <!--page-title-->
@@ -9,8 +9,7 @@
                 <div class="row align-items-center">
                     <div class="col-lg-12">
                         <div class="page-title-heading">
-                            <h2 class="title"> Intimate
-                                    Ballroom Affair </h2>
+                            <h2 class="title">{{$portfolio->place}} </h2>
                         </div>
                     </div>
                 </div>
@@ -30,17 +29,15 @@
                 <!--row-->
                 <div class="row">
                     <div class="col-sm-12 text-center">
-                        <div class="kt-inside-inner-col">
+                        <div class="kt-inside-inner-col8 aos-init" data-aos="fade">
                             <div class="wp-block-kadence-column kadence-column1576_7c0b68-c5">
-                                <h2 class="wp-block-heading has-text-align-center" style="margin-bottom:0.5em">Intimate
-                                    Ballroom Affair</h2>
+                                <h2 class="wp-block-heading has-text-align-center" style="margin-bottom:0.5em">{{$portfolio->place}}</h2>
                                 <p class="has-text-align-center has-gold-color has-text-color"
-                                    style="letter-spacing:0.25em;text-transform:uppercase">SABRINA + BRAD<br>THE RITZ
-                                    CARLTON</p>
+                                    style="letter-spacing:0.25em;text-transform:uppercase">{{$portfolio->name}}</p>
                                 <h6 class="wp-block-heading has-text-align-center"
-                                    style="margin-bottom:0.5em;letter-spacing:0.25em;text-transform:uppercase">PHOTOGRAPHY
-                                    |<mark style="background-color:rgba(0, 0, 0, 0)"
-                                        class="has-inline-color has-gold-color"> MIKE CASSIMATIS PHOTOGRAPHY</mark> </h6>
+                                    style="margin-bottom:0.5em;letter-spacing:0.25em;text-transform:uppercase">PHOTOGRAPHY |
+                                    <a href="{{$portfolio->instaLink}}" target="_blank"><mark style="background-color:rgba(0, 0, 0, 0)"
+                                        class="has-inline-color has-gold-color"> Instagram</mark></a> </h6>
                             </div>
                         </div>
                     </div>
@@ -48,36 +45,20 @@
 
   </div>
  <div class="row" style="    margin-top: -25px;">
-                    <div class="ttm-box-col-wrapper col-lg-4 col-md-6 col-sm-6 p-1">
-                        <a data-gal="prettyPhoto[gallery1]" title="Marketing Strategy"
-                            href="{{ config('app.url') }}/assets/images/SBB-83-1536x2048.jpg" data-rel="prettyPhoto"
+
+    @foreach(json_decode($portfolio->gallery, true) as $image)
+<div class="ttm-box-col-wrapper col-lg-4 col-md-6 col-sm-6 p-1">
+                        <a data-gal="prettyPhoto[gallery1]" title="{{$portfolio->name}}"
+                            href="{{ Voyager::image($image) }}" data-rel="prettyPhoto"
                             tabindex="0">
-                            <img class="img-fluid" src="{{ config('app.url') }}/assets/images/SBB-83-1536x2048.jpg"
-                                alt="image">
+                            <img class="img-fluid" src="{{ Voyager::image($image) }}"
+                                alt="{{$portfolio->name}}">
                         </a>
                         <!--featured-imagebox-portfolio-->
 
                     </div>
-                    <div class="ttm-box-col-wrapper col-lg-4 col-md-6 col-sm-6 p-1">
-                        <a data-gal="prettyPhoto[gallery1]" title="Marketing Strategy"
-                            href="{{ config('app.url') }}/assets/images/SBB-83-1536x2048.jpg" data-rel="prettyPhoto"
-                            tabindex="0">
-                            <img class="img-fluid" src="{{ config('app.url') }}/assets/images/SBB-83-1536x2048.jpg"
-                                alt="image">
-                        </a>
-                        <!--featured-imagebox-portfolio-->
+@endforeach
 
-                    </div>
-                    <div class="ttm-box-col-wrapper col-lg-4 col-md-6 col-sm-6 p-1">
-                        <a data-gal="prettyPhoto[gallery1]" title="Marketing Strategy"
-                            href="{{ config('app.url') }}/assets/images/SBB-83-1536x2048.jpg" data-rel="prettyPhoto"
-                            tabindex="0">
-                            <img class="img-fluid" src="{{ config('app.url') }}/assets/images/SBB-83-1536x2048.jpg"
-                                alt="image">
-                        </a>
-                        <!--featured-imagebox-portfolio-->
-
-                    </div>
 
 
 

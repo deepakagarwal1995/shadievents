@@ -2,6 +2,8 @@
 
 // use App\Http\Controllers\VisitorsController;
 // use App\Http\Controllers\OrdersController;
+
+use App\Http\Controllers\VisitorsController;
 use Illuminate\Support\Facades\Route;
 use TCG\Voyager\Facades\Voyager;
 
@@ -16,21 +18,12 @@ use TCG\Voyager\Facades\Voyager;
 |
 */
 
-Route::get('/', function () {
-    return view('visitors.index');
-});
-Route::get('/portfolio', function () {
-    return view('visitors.portfolio');
-})->name('portfolio');
-Route::get('/portfolio-single', function () {
-    return view('visitors.portfolio-single');
-})->name('portfolio-single');
-Route::get('/service-single', function () {
-    return view('visitors.service-single');
-})->name('service-single');
-Route::get('/services', function () {
-    return view('visitors.services');
-})->name('services');
+Route::get('/', [VisitorsController::class, 'index'])->name('index');
+Route::get('/portfolio', [VisitorsController::class, 'portfolio'])->name('portfolio');
+Route::get('/portfolio/{slug}', [VisitorsController::class, 'portfolioSingle'])->name('portfolioSingle');
+Route::get('/services', [VisitorsController::class, 'services'])->name('services');
+Route::get('/service/{slug}', [VisitorsController::class, 'service'])->name('service');
+Route::post('/enquiry-submit', [VisitorsController::class, 'enquiryStore'])->name('enquiry-store');
 Route::get('/meet-the-co', function () {
     return view('visitors.meet');
 })->name('meet');

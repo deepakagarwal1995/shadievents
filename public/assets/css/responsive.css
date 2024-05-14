@@ -659,6 +659,11 @@
 
 
 @media (max-width: 767px) {
+    .ttm-box-col-wrapper img {
+            width: 100%;
+            height: 320px;
+            object-fit: cover;
+        }
   .ttm-fid.inside.style1 h4 span {
       font-size: 80px;
       line-height: 80px;

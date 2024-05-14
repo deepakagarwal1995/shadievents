@@ -1,4 +1,4 @@
-@extends('layouts.app', ['title' =>'Our Work | Shadievents'])
+@extends('layouts.app', ['title' =>$title])
 
 @section('content')
 
@@ -36,148 +36,33 @@
 
 
 
-
+ @foreach ($portfolio as $row)
                         <div class="ttm-box-col-wrapper col-lg-4 col-md-6 col-sm-6">
                             <!--featured-imagebox-portfolio-->
                             <div class="featured-imagebox featured-imagebox-portfolio style2">
                                 <div class="ttm-box-view-content-inner">
                                     <!--featured-thumbnail-->
                                     <div class="featured-thumbnail">
-                                        <img class="img-fluid" src="{{ config('app.url') }}/assets/images/SBB-83-1536x2048.jpg" alt="image">
+                                        <img class="img-fluid" src="{{ Voyager::image( thumbnail($row->mainImage,'medium') ) }}" alt="image">
                                     </div> <!--featured-thumbnail end-->
                                     <div class="ttm-media-link">
 
-                                        <a href="{{route('portfolio-single')}}" class="ttm_link" tabindex="0">
-                                           Sabrina + Brad</a>
+                                        <a href="{{route('portfolioSingle',$row->slug)}}" class="ttm_link" tabindex="0">
+                                           {{$row->name}}</a>
                                     </div>
                                 </div>
                                 <div class="featured-content featured-content-portfolio">
 
                                     <div class="featured-title">
-                                       <h5><a href="{{route('portfolio-single')}}">INTIMATE BALLROOM AFFAIR</a></h5>
-                                       <p class="t-cursive">as seen in The Knot </p>
+                                       <h5><a href="{{route('portfolioSingle',$row->slug)}}">{{$row->place}}</a></h5>
+                                       <p class="t-cursive">{{$row->name}} </p>
                                     </div>
                                 </div>
                             </div><!--featured-imagebox-portfolio end-->
                         </div>
 
-                        <div class="ttm-box-col-wrapper col-lg-4 col-md-6 col-sm-6">
-                            <!--featured-imagebox-portfolio-->
-                            <div class="featured-imagebox featured-imagebox-portfolio style2">
-                                <div class="ttm-box-view-content-inner">
-                                    <!--featured-thumbnail-->
-                                    <div class="featured-thumbnail">
-                                        <img class="img-fluid" src="{{ config('app.url') }}/assets/images/MariaAli0594-3-1366x2048.jpg" alt="image">
-                                    </div> <!--featured-thumbnail end-->
-                                    <div class="ttm-media-link">
+                       @endforeach
 
-                                        <a href="{{route('portfolio-single')}}" class="ttm_link" tabindex="0">
-                                           Sabrina + Brad</a>
-                                    </div>
-                                </div>
-                                <div class="featured-content featured-content-portfolio">
-
-                                    <div class="featured-title">
-                                       <h5><a href="#">INTIMATE BALLROOM AFFAIR</a></h5>
-                                       <p class="t-cursive">as seen in The Knot </p>
-                                    </div>
-                                </div>
-                            </div><!--featured-imagebox-portfolio end-->
-                        </div>
-                        <div class="ttm-box-col-wrapper col-lg-4 col-md-6 col-sm-6">
-                            <!--featured-imagebox-portfolio-->
-                            <div class="featured-imagebox featured-imagebox-portfolio style2">
-                                <div class="ttm-box-view-content-inner">
-                                    <!--featured-thumbnail-->
-                                    <div class="featured-thumbnail">
-                                        <img class="img-fluid" src="{{ config('app.url') }}/assets/images/Hannah_Wyatt_W0593-1536x2048.jpg" alt="image">
-                                    </div> <!--featured-thumbnail end-->
-                                    <div class="ttm-media-link">
-
-                                        <a href="{{route('portfolio-single')}}" class="ttm_link" tabindex="0">
-                                           Sabrina + Brad</a>
-                                    </div>
-                                </div>
-                                <div class="featured-content featured-content-portfolio">
-
-                                    <div class="featured-title">
-                                       <h5><a href="#">INTIMATE BALLROOM AFFAIR</a></h5>
-                                       <p class="t-cursive">as seen in The Knot </p>
-                                    </div>
-                                </div>
-                            </div><!--featured-imagebox-portfolio end-->
-                        </div>
-
-                           <div class="ttm-box-col-wrapper col-lg-4 col-md-6 col-sm-6">
-                            <!--featured-imagebox-portfolio-->
-                            <div class="featured-imagebox featured-imagebox-portfolio style2">
-                                <div class="ttm-box-view-content-inner">
-                                    <!--featured-thumbnail-->
-                                    <div class="featured-thumbnail">
-                                        <img class="img-fluid" src="{{ config('app.url') }}/assets/images/SBB-83-1536x2048.jpg" alt="image">
-                                    </div> <!--featured-thumbnail end-->
-                                    <div class="ttm-media-link">
-
-                                        <a href="{{route('portfolio-single')}}" class="ttm_link" tabindex="0">
-                                           Sabrina + Brad</a>
-                                    </div>
-                                </div>
-                                <div class="featured-content featured-content-portfolio">
-
-                                    <div class="featured-title">
-                                       <h5><a href="#">VIBRANT & MOODY MATRIMONY</a></h5>
-                                       <p class="t-cursive">as seen in The Knot </p>
-                                    </div>
-                                </div>
-                            </div><!--featured-imagebox-portfolio end-->
-                        </div>
-
-                        <div class="ttm-box-col-wrapper col-lg-4 col-md-6 col-sm-6">
-                            <!--featured-imagebox-portfolio-->
-                            <div class="featured-imagebox featured-imagebox-portfolio style2">
-                                <div class="ttm-box-view-content-inner">
-                                    <!--featured-thumbnail-->
-                                    <div class="featured-thumbnail">
-                                        <img class="img-fluid" src="{{ config('app.url') }}/assets/images/MariaAli0594-3-1366x2048.jpg" alt="image">
-                                    </div> <!--featured-thumbnail end-->
-                                    <div class="ttm-media-link">
-
-                                        <a href="{{route('portfolio-single')}}" class="ttm_link" tabindex="0">
-                                           Sabrina + Brad</a>
-                                    </div>
-                                </div>
-                                <div class="featured-content featured-content-portfolio">
-
-                                    <div class="featured-title">
-                                       <h5><a href="#">OVERWATER ELEGANCE</a></h5>
-
-                                    </div>
-                                </div>
-                            </div><!--featured-imagebox-portfolio end-->
-                        </div>
-                        <div class="ttm-box-col-wrapper col-lg-4 col-md-6 col-sm-6">
-                            <!--featured-imagebox-portfolio-->
-                            <div class="featured-imagebox featured-imagebox-portfolio style2">
-                                <div class="ttm-box-view-content-inner">
-                                    <!--featured-thumbnail-->
-                                    <div class="featured-thumbnail">
-                                        <img class="img-fluid" src="{{ config('app.url') }}/assets/images/Hannah_Wyatt_W0593-1536x2048.jpg" alt="image">
-                                    </div> <!--featured-thumbnail end-->
-                                    <div class="ttm-media-link">
-
-                                        <a href="{{route('portfolio-single')}}" class="ttm_link" tabindex="0">
-                                           Sabrina + Brad</a>
-                                    </div>
-                                </div>
-                                <div class="featured-content featured-content-portfolio">
-
-                                    <div class="featured-title">
-                                       <h5><a href="#">SEASIDE SOIRÉE</a></h5>
-                                       <p class="t-cursive">as seen in The Knot </p>
-                                    </div>
-                                </div>
-                            </div><!--featured-imagebox-portfolio end-->
-                        </div>
 
                     </div><!--row end-->
                 </div>

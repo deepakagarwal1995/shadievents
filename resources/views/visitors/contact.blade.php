@@ -135,34 +135,55 @@
                                 <div class="col-lg-7 col-md-7 col-sm-12">
                                     <div class="border pt-35 pr-30 pb-40 pl-30">
                                         <h5>Do You Have Any Questions?</h5>
-                                        <form id="contactform" class="contactform wrap-form pt-5 clearfix" method="post" novalidate="novalidate" action="#">
+                                        @if(session()->has('success'))
+                                        <div class="alert alert-success alert-dismissible fade show" role="alert">
+  {{ session()->get('success') }}
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+    
+@endif
+                                        <form action="{{ route('enquiry-store') }}" class="contactform wrap-form pt-5 clearfix" method="post" method="POST">
+                                             @csrf
+
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <label>
                                                         <span class="text-input"><input name="name" type="text" value="" placeholder="Your Name*" required="required"></span>
                                                     </label>
+                                                    @error('name')
+                    <p class="text-danger mt-2">{{ $message }}</p>
+                    @enderror
                                                 </div>
                                                 <div class="col-md-6">
                                                     <label>
-                                                        <span class="text-input"><input name="address" type="text" value="" placeholder="Your Email*" required="required"></span>
+                                                        <span class="text-input"><input name="email" type="text" value="" placeholder="Your Email" ></span>
                                                     </label>
+                                                    @error('email')
+                    <p class="text-danger mt-2">{{ $message }}</p>
+                    @enderror
                                                 </div>
                                             </div>
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <label>
-                                                        <span class="text-input"><input name="phone" type="text" value="" placeholder="Phone" required="required"></span>
+                                                        <span class="text-input"><input name="phone" type="tel" pattern="[6-9]{1}[0-9]{9}"
+       title="Phone number with 6-9 and remaing 9 digit with 0-9" placeholder="Phone" required="required"></span>
                                                     </label>
+                                                    @error('phone')
+                    <p class="text-danger mt-2">{{ $message }}</p>
+                    @enderror
                                                 </div>
                                                 <div class="col-md-6">
                                                     <label>
-                                                        <span class="text-input"><input name="phone" type="text" value="" placeholder="your-event" required="required"></span>
+                                                        <span class="text-input"><input name="type" type="text" value="" placeholder="Your Event Type*" required="required"></span>
                                                     </label>
                                                 </div>
                                             </div>
 
                                             <label>
-                                                <span class="text-input"><textarea name="message" rows="4" placeholder="Your Messages" required="required"></textarea></span>
+                                                <span class="text-input"><textarea name="messg" rows="4" placeholder="Your Message" ></textarea></span>
                                             </label>
                                             <button class="submit ttm-btn ttm-btn-size-md ttm-btn-shape-rounded ttm-btn-style-fill ttm-btn-color-skincolor w-100" type="submit">Send A Message!</button>
                                         </form>
