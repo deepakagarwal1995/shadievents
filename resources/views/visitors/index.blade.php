@@ -2,7 +2,7 @@
 
 @section('headerTop')
  <div class="kb-row-layout-wrap kb-row-layout-id2_97e2e6-e4 alignnone wp-block-kadence-rowlayout" id="home_hero">
-            <div class="kb-blocks-bg-video-container"><video loading="lazy" class="kb-blocks-bg-video" id="bg-row-video-2_97e2e6-e4" poster="https://upaay.org.in/uploads/2024/05/e01d7cd3637da2b61fe6f47ad13a91ce.mp4"
+            <div class="kb-blocks-bg-video-container"><video class="kb-blocks-bg-video" id="bg-row-video-2_97e2e6-e4" poster="https://upaay.org.in/uploads/2024/05/e01d7cd3637da2b61fe6f47ad13a91ce.mp4"
                     playsinline="" muted="true" loop="true"
                     src="{{ config('app.url') }}/assets/video/Web-promo-2.mp4"
                     autoplay="true" preload="none"></video></div>
