@@ -16,20 +16,20 @@
     <link rel="stylesheet" type="text/css" href="{{ config('app.url') }}/assets/css/themify-icons.css" />
 
     <!-- slick -->
-    <link rel="stylesheet" type="text/css" href="{{ config('app.url') }}/assets/css/slick.css">
+     
 
     <!-- prettyphoto -->
     <link rel="stylesheet" type="text/css" href="{{ config('app.url') }}/assets/css/prettyPhoto.css">
 
     <!-- shortcodes -->
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link rel="stylesheet" type="text/css" href="{{ config('app.url') }}/assets/css/shortcodes.css" />
+    
+    <link rel="stylesheet" type="text/css" href="{{ config('app.url') }}/assets/css/shortcodes.css?v=52.2" />
 
     <!-- main -->
-    <link rel="stylesheet" type="text/css" href="{{ config('app.url') }}/assets/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="{{ config('app.url') }}/assets/css/main.css?v=52.2" />
 
     <!-- main -->
-    <link rel="stylesheet" type="text/css" href="{{ config('app.url') }}/assets/css/megamenu.css" />
+    <link rel="stylesheet" type="text/css" href="{{ config('app.url') }}/assets/css/megamenu.css?v=52.2" />
 
     <!-- responsive -->
-    <link rel="stylesheet" type="text/css" href="{{ config('app.url') }}/assets/css/responsive.css" />
+    <link rel="stylesheet" type="text/css" href="{{ config('app.url') }}/assets/css/responsive.css?v=52.2" />

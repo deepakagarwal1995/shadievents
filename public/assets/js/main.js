@@ -26,8 +26,7 @@
 
  =============== */
 
-AOS.init();
-
+ 
 
 (function($) {
 
@@ -326,111 +325,9 @@ jQuery("a[data-gal^='prettyPhoto']").prettyPhoto({hook: 'data-gal'})
 /*------------------------------------------------------------------------------*/
 /* slider_range
 /*------------------------------------------------------------------------------*/
-    $(function () {
-        $("#slider-range").slider({
-            range: true,
-            orientation: "horizontal",
-            min: 0,
-            max: 999,
-            values: [0, 780],
+    
 
-            slide: function (event, ui) {
-                if ( "$" + ui.values[0] =="$" + ui.values[1]) {
-                    return false;
-                }
-              
-                $("#min_price").val("$" + ui.values[0]);
-                $("#max_price").val("$" + ui.values[1]);
-            }
-        });
-
-        $("#min_price ").val("$" + $("#slider-range").slider("values", 0));
-        $("#max_price ").val("$" + $("#slider-range").slider("values", 1));
-
-    });
-
-
-/*------------------------------------------------------------------------------*/
-/* slick_slider
-/*------------------------------------------------------------------------------*/
-
- $(".slick_slider").slick({
-        speed: 1000,
-        infinite: true,
-        arrows: false,
-        dots: false,                   
-        autoplay: false,
-        centerMode : false,
-
-        responsive: [{
-
-            breakpoint: 1360,
-            settings: {
-            slidesToShow: 3,
-            slidesToScroll: 3
-            }
-        },
-        {
-
-            breakpoint: 1024,
-            settings: {
-            slidesToShow: 3,
-            slidesToScroll: 3
-            }
-        },
-        {
-
-            breakpoint: 680,
-            settings: {
-                slidesToShow: 2,
-                slidesToScroll: 2
-            }
-        },
-        {
-            breakpoint: 575,
-            settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1
-            }
-        }]
-    });
-
-
-    /* testimonials */
-    var testinav=jQuery('.testimonials-nav',this);
-    var testiinfo=jQuery('.testimonials-info',this);
-
-    jQuery('.testimonials-info',this).slick({
-        slidesToShow    : 1,
-        slidesToScroll  : 1,
-        fade            : false,
-        arrows          : false,
-        asNavFor        : testinav,
-        adaptiveHeight  : true,
-        speed           : 1500,
-        autoplay        : true,
-        autoplaySpeed   : 1500,
-        infinite        : true,
-    });
-
-    jQuery('.testimonials-nav',this).slick({
-
-        slidesToShow    : 1,
-        slidesToScroll  : 1,
-        asNavFor        : testiinfo,
-        centerMode      : true,
-        centerPadding   : 0,
-        focusOnSelect   : true,
-        autoplay        : true,
-        autoplaySpeed   : 1500,
-        speed           : 1500,
-        arrows          : true,
-        dots            : false,
-        variableWidth   : true,
-        infinite        : true,
-
-        
-    }); 
+ 
 /*------------------------------------------------------------------------------*/
 /* Back to top
 /*------------------------------------------------------------------------------*/
