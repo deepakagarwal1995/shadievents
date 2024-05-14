@@ -2,7 +2,7 @@
 
 @section('headerTop')
  <div class="kb-row-layout-wrap kb-row-layout-id2_97e2e6-e4 alignnone wp-block-kadence-rowlayout" id="home_hero">
-            <div class="kb-blocks-bg-video-container"><video class="kb-blocks-bg-video" id="bg-row-video-2_97e2e6-e4" poster="{{ config('app.url') }}/assets/images/163579922_3479357715503579_2079521360558329101_n-1-min.jpg"
+            <div class="kb-blocks-bg-video-container"><video loading="lazy" class="kb-blocks-bg-video" id="bg-row-video-2_97e2e6-e4" poster="{{ config('app.url') }}/assets/images/163579922_3479357715503579_2079521360558329101_n-1-min.jpg"
                     playsinline="" muted="true" loop="true"
                     src="{{ config('app.url') }}/assets/video/Web-promo-2.mp4"
                     autoplay="true" preload="none"></video></div>
@@ -15,8 +15,8 @@
                         </h4>
                         <div style="height:0" aria-hidden="true" class="wp-block-spacer"></div>
                         <div class="wp-block-kadence-image kb-image2_4b8530-6e aos-init" data-aos="fade">
-                            <figure class="aligncenter size-large is-resized image-is-svg"><img loading="lazy"
-                                    decoding="async"
+                            <figure class="aligncenter size-large is-resized image-is-svg"><img 
+                                    
                                     src="{{ config('app.url') }}/assets/images/white-logo-lg.png"
                                     alt="" class="kb-img wp-image-115" style="     max-width: 100%;
     width: 469px;
@@ -60,7 +60,7 @@
                                         </div><!--section title end-->
                                     </div>
                                     <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
-                                        <img loading="lazy" decoding="async" width="1024" height="683"
+                                        <img   width="1024" height="683"
                                             src="{{ config('app.url') }}/assets/images/1-web-photo.jpg" alt="" class="img-fluid w-100">
                                     </div>
                                 </div>
@@ -70,7 +70,7 @@
                                         class="ttm_single_image-wrapper text-lg-right text-center res-991-pt-70 res-991-pb-60">
                                         <div data-aos="fade-down" data-aos-duration="1000"
                                             data-aos-easing="ease-in-out">
-                                            <img loading="lazy" decoding="async" class="img-fluid"
+                                            <img   class="img-fluid"
                                                 src="{{ config('app.url') }}/assets/images/2-web-photo.jpg" alt="single_01">
                                         </div>
                                     </div>
@@ -200,7 +200,7 @@ we have you covered.</p>
                         <div class="col-lg-8" data-aos="fade-down" data-aos-duration="1000"
                             data-aos-easing="ease-in-out">
 
-                            <img loading="lazy" decoding="async" src="{{ config('app.url') }}/assets/images/A42I1951.jpg" alt=""
+                            <img   src="{{ config('app.url') }}/assets/images/A42I1951.jpg" alt=""
                                 class="img-fluid w-100">
                         </div>
                     </div>
@@ -216,7 +216,7 @@ we have you covered.</p>
                         <div class="col-lg-5">
                             <div class="ttm_single_image-wrapper-2" data-aos="fade-up" data-aos-duration="1000"
                                 data-aos-easing="ease-in-out">
-                                <img loading="lazy" decoding="async" src="{{ config('app.url') }}/assets/images/RAJU0080.jpg" alt=""
+                                <img   src="{{ config('app.url') }}/assets/images/RAJU0080.jpg" alt=""
                                     class="img-fluid w-100">
                             </div>
                         </div>
