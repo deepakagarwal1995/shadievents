@@ -45,7 +45,7 @@ Route::get('migrate', function () {
     Artisan::call('route:clear');
     Artisan::call('config:clear');
     Artisan::call('cache:clear');
-    Artisan::call('migrate');
+    echo Artisan::call('migrate');
 });
 
 
