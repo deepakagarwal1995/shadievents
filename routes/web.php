@@ -40,13 +40,7 @@ Route::group(['prefix' => 'admin'], function () {
 });
 
 
-Route::get('migrate', function () {
-    Artisan::call('view:clear');
-    Artisan::call('route:clear');
-    Artisan::call('config:clear');
-    Artisan::call('cache:clear');
-    echo Artisan::call('migrate');
-});
+
 
 
 Route::get('/storage-link', function () {
