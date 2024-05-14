@@ -3,9 +3,9 @@
 @section('headerTop')
  <div class="kb-row-layout-wrap kb-row-layout-id2_97e2e6-e4 alignnone wp-block-kadence-rowlayout" id="home_hero">
             <div class="kb-blocks-bg-video-container"><video class="kb-blocks-bg-video" id="bg-row-video-2_97e2e6-e4" poster="{{ config('app.url') }}/assets/images/163579922_3479357715503579_2079521360558329101_n-1-min.jpg"
-                    playsinline="" muted="" loop=""
+                    playsinline="" muted="true" loop="true"
                     src="{{ config('app.url') }}/assets/video/Web-promo-2.mp4"
-                    autoplay=""></video></div>
+                    autoplay="true" preload="none"></video></div>
             <div
                 class="kt-row-column-wrap kt-has-1-columns kt-row-layout-equal kt-tab-layout-inherit kt-mobile-layout-row kt-row-valign-top">
                 <div class="wp-block-kadence-column kadence-column2_c3cb86-9a inner-column-1">
