@@ -22,11 +22,13 @@
 11. Skillbar
 12. slider_range
 13. slick_slider
-14. Back to top 
+14. Back to top
 
  =============== */
+window.onload = function() {
+  AOS.init();
+};
 
- 
 
 (function($) {
 
@@ -48,8 +50,8 @@
 /*------------------------------------------------------------------------------*/
 /* header_search
 /*------------------------------------------------------------------------------*/
-    
-    $(".header_search").each(function(){  
+
+    $(".header_search").each(function(){
         $(".search_btn", this).on("click", function(e){
 
             e.preventDefault();
@@ -60,16 +62,16 @@
             if ($('.header_search a').hasClass('open')) {
 
                 $( ".header_search a i" ).removeClass('ti-close').addClass('ti-search');
-                
-                $(this).removeClass('open').addClass('sclose');    
 
-            } 
+                $(this).removeClass('open').addClass('sclose');
+
+            }
 
             else {
                 $(".header_search a").removeClass('sclose').addClass('open');
 
-                $( ".header_search a i" ).removeClass('ti-search').addClass('ti-close');  
-                
+                $( ".header_search a i" ).removeClass('ti-search').addClass('ti-close');
+
             }
         });
 
@@ -82,7 +84,7 @@
 /*------------------------------------------------------------------------------*/
 
     $(window).scroll(function(){
-        
+
             var het = $(window).height();
             if ($(window).scrollTop() >= het ) {
 
@@ -92,15 +94,15 @@
 
                 $('.ttm-stickable-header').removeClass('fixed-header');
             }
-      
+
     })
 
-    
+
 /*------------------------------------------------------------------------------*/
 /* Menu
 /*------------------------------------------------------------------------------*/
 
-   
+
     var menu = {
         initialize: function() {
             this.Menuhover();
@@ -112,12 +114,12 @@
                 getHeight = $(window).height(),
                 getIn = getNav.find("ul.menu").data("in"),
                 getOut = getNav.find("ul.menu").data("out");
-            
+
             if ( matchMedia( 'only screen and (max-width: 1200px)' ).matches ) {
-                                                     
+
                 // Enable click event
                 $("nav.main-menu ul.menu").each(function(){
-                    
+
                     // Dropdown Fade Toggle
                     $("a.mega-menu-link", this).on('click', function (e) {
                         e.preventDefault();
@@ -134,22 +136,22 @@
                                 $(this).closest(".col-menu").toggleClass("active");
                                 return false;
                                 e.preventDefault();
-                                
+
                             });
 
                         });
                     });
-                }); 
+                });
             }
         },
     };
 
 
     $('.btn-show-menu-mobile').on('click', function(e){
-        $(this).toggleClass('is-active'); 
-        $('.menu-mobile').toggleClass('show'); 
+        $(this).toggleClass('is-active');
+        $('.menu-mobile').toggleClass('show');
         return false;
-        e.preventDefault();  
+        e.preventDefault();
     });
 
     // Initialize
@@ -161,12 +163,12 @@
 /*------------------------------------------------------------------------------*/
 /* Animation on scroll: Number rotator
 /*------------------------------------------------------------------------------*/
-    
+
     $("[data-appear-animation]").each(function() {
         var self      = $(this);
         var animation = self.data("appear-animation");
         var delay     = (self.data("appear-animation-delay") ? self.data("appear-animation-delay") : 0);
-        
+
         if( $(window).width() > 959 ) {
             self.html('0');
             self.waypoint(function(direction) {
@@ -196,18 +198,18 @@
 
 /*------------------------------------------------------------------------------*/
 /* Tab
-/*------------------------------------------------------------------------------*/ 
+/*------------------------------------------------------------------------------*/
 $(document).ready(function() {
 
-        $('.ttm-tabs > .tabs').children('li').on('click', function(e) {  
+        $('.ttm-tabs > .tabs').children('li').on('click', function(e) {
 
-            var tab = $(this).closest('.ttm-tabs > .tabs > .tab'), 
+            var tab = $(this).closest('.ttm-tabs > .tabs > .tab'),
 
             index = $(this).closest('.ttm-tabs > .tabs > li').index();
 
-            $(this).parents('.ttm-tabs').children(' .tabs').children('li.active ').removeClass('active'); 
+            $(this).parents('.ttm-tabs').children(' .tabs').children('li.active ').removeClass('active');
 
-            $(this).addClass('active'); 
+            $(this).addClass('active');
             $(this).addClass('active').parents('.ttm-tabs').children('.content-tab').find('.content-inner').not('.content-inner:eq(' + index + ')').slideUp();
             $(this).addClass('active').parents('.ttm-tabs').children('.content-tab').find('.content-inner:eq(' + index + ')').slideDown();
 
@@ -234,7 +236,7 @@ $('.accordion .toggle-title').click(function(){
 
    $(function () {
 
-        if ( $().isotope ) {           
+        if ( $().isotope ) {
             var $container = $('.isotope-project');
             $container.imagesLoaded(function(){
                 $container.isotope({
@@ -244,7 +246,7 @@ $('.accordion .toggle-title').click(function(){
                 });
             });
 
-            $('.portfolio-filter li').on('click',function() {                           
+            $('.portfolio-filter li').on('click',function() {
                 var selector = $(this).find("a").attr('data-filter');
                 $('.portfolio-filter li').removeClass('active');
                 $(this).addClass('active');
@@ -254,8 +256,8 @@ $('.accordion .toggle-title').click(function(){
         };
 
    });
-   
-    
+
+
 /*------------------------------------------------------------------------------*/
 /* Prettyphoto
 /*------------------------------------------------------------------------------*/
@@ -269,7 +271,7 @@ jQuery('a[href*=".jpg"], a[href*=".jpeg"], a[href*=".png"], a[href*=".gif"]').ea
             jQuery(this).attr('data-rel','prettyPhoto');
         }
     }
-});     
+});
 
 
 jQuery('a[data-gal^="prettyPhoto"]').prettyPhoto();
@@ -278,14 +280,14 @@ jQuery('a[data-gal^="prettyPhoto"]').prettyPhoto();
 jQuery("a[data-gal^='prettyPhoto']").prettyPhoto({hook: 'data-gal'})
 
 });
-    
 
- 
-   
+
+
+
 /*------------------------------------------------------------------------------*/
 /* Skillbar
 /*------------------------------------------------------------------------------*/
- 
+
     $('.ttm-progress-bar').each(function() {
     $(this).find('.progress-bar').width(0);
     });
@@ -325,14 +327,14 @@ jQuery("a[data-gal^='prettyPhoto']").prettyPhoto({hook: 'data-gal'})
 /*------------------------------------------------------------------------------*/
 /* slider_range
 /*------------------------------------------------------------------------------*/
-    
 
- 
+
+
 /*------------------------------------------------------------------------------*/
 /* Back to top
 /*------------------------------------------------------------------------------*/
 
-// ===== Scroll to Top ==== 
+// ===== Scroll to Top ====
 jQuery('#totop').hide();
 jQuery(window).scroll(function() {
     "use strict";

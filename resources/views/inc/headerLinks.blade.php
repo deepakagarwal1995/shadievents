@@ -24,6 +24,7 @@
     <!-- shortcodes -->
     
     <link rel="stylesheet" type="text/css" href="{{ config('app.url') }}/assets/css/shortcodes.css?v=52.2" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <!-- main -->
     <link rel="stylesheet" type="text/css" href="{{ config('app.url') }}/assets/css/main.css?v=52.2" />
