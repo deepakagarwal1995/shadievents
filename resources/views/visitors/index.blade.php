@@ -15,8 +15,8 @@
                         </h4>
                         <div style="height:0" aria-hidden="true" class="wp-block-spacer"></div>
                         <div class="wp-block-kadence-image kb-image2_4b8530-6e aos-init" data-aos="fade">
-                            <figure class="aligncenter size-large is-resized image-is-svg"><img 
-                                    
+                            <figure class="aligncenter size-large is-resized image-is-svg"><img
+
                                     src="{{ config('app.url') }}/assets/images/white-logo-lg.png"
                                     alt="" class="kb-img wp-image-115" style="     max-width: 100%;
     width: 469px;
@@ -37,7 +37,7 @@
         <!--site-main start-->
         <div class="site-main">
 
-            <section class="ttm-row contact-section clearfix pt-85 ">
+            <section class="ttm-row contact-section clearfix pt-85 res-991-pt-30">
                 <div class="container">
                     <!--row-->
                     <div class="row">
@@ -45,7 +45,7 @@
                             <div class="row">
                                 <div class="col-lg-9" data-aos="fade" data-aos-duration="1000" data-aos-delay="500"
                                     data-aos-easing="ease-in-out">
-                                    <div class="pr-75 res-991-pr-0 res-991-pt-60">
+                                    <div class="pr-75 res-991-pr-0 ">
                                         <!--section title-->
                                         <div class="section-title">
                                             <div class="title-header">
@@ -122,7 +122,7 @@ Because when it comes to your big day, nothing less than perfection will do.</h6
                             </div><!--ttm_single_image-wrapper end-->
                         </div>
                         <div class="col-lg-6 col-sm-12">
-                            <div class="pt-55 pb-55 pl-50 pr-50 res-991-pt-25 res-991-pb-25 res-991-pl-15 res-991-pr-15  "
+                            <div class="pt-55 pb-55  res-2000-py-150 pl-50 pr-50 res-991-pt-25 res-991-pb-25 res-991-pl-15 res-991-pr-15  "
                                 data-aos="fade" data-aos-duration="1000" data-aos-easing="ease-in-out">
                                 <!--section title-->
                                 <h2 class="wp-block-heading has-medium-font-size"><span class="script"><mark

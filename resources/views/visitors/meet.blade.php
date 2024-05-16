@@ -9,7 +9,7 @@
                     <div class="row align-items-center">
                         <div class="col-lg-12">
                             <div class="page-title-heading">
-                                <h2 class="title"> MEET THE CO. </h2>
+                                <h2 class="title"> MEET THE SE. </h2>
                             </div>
                         </div>
                     </div>
@@ -54,182 +54,91 @@
                 </div>
             </section>
 
-            <section class="ttm-row team-member-section_1 clearfix">
+            <section class="ttm-row team-member-section_1 clearfix" style="    background: #eceae6;">
                 <div class="container">
                     <!-- row -->
+
+
                     <div class="row">
                          <div class="col-sm-12 text-center">
                               <h1 class="wp-block-heading has-large-font-size"><span class="script"><mark
                                                         style="background-color:rgba(0, 0, 0, 0)"
-                                                        class="has-inline-color has-gold-color">Meet Our Team</mark></span></h1>
+                                                        class="has-inline-color has-gold-color">Meet Our Founder</mark></span></h1>
 
 
 
 
                                              </div>
-                        <div class="col-lg-4 col-md-6">
-                            <!--featured-imagebox-team-->
-                            <div class="featured-imagebox featured-imagebox-team style1">
-                                <div class="ttm-box-view-overlay">
-                                    <!--featured-thumbnail-->
-                                    <div class="featured-thumbnail">
-                                        <img class="img-fluid" src="{{ config('app.url') }}/assets/images/team-member/team-img04.jpg" alt="image">
-                                    </div><!--featured-thumbnail end-->
-                                </div>
-                                <div class="featured-content box-shadow">
-                                    <p class="category">Wedding Planner</p>
-                                    <div class="featured-title">
-                                        <h5><a href="#">Alex Sam Martin</a></h5>
-                                    </div>
-                                    <div class="featured-iconbox ttm-media-link">
-                                        <div class="media-block">
-                                            <div class="media-btn"><i class="ti ti-plus"></i></div>
-                                            <ul class="social-icons list-inline">
-                                                <li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                                                <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                                                <li><a href="#" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div><!--featured-imagebox-team end-->
-                        </div>
-                        <div class="col-lg-4 col-md-6">
-                            <!--featured-imagebox-team-->
-                            <div class="featured-imagebox featured-imagebox-team style1">
-                                <div class="ttm-box-view-overlay">
-                                    <!--featured-thumbnail-->
-                                    <div class="featured-thumbnail">
-                                        <img class="img-fluid" src="{{ config('app.url') }}/assets/images/team-member/team-img05.jpg" alt="image">
-                                    </div><!--featured-thumbnail end-->
-                                </div>
-                                <div class="featured-content box-shadow">
-                                    <p class="category">Graphics Designer</p>
 
-                                    <div class="featured-title">
-                                        <h5><a href="#">Emilia Harold</a></h5>
-                                    </div>
-                                    <div class="featured-iconbox ttm-media-link">
-                                        <div class="media-block">
-                                            <div class="media-btn"><i class="ti ti-plus"></i></div>
-                                            <ul class="social-icons list-inline">
-                                                <li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                                                <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                                                <li><a href="#" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div><!--featured-imagebox-team end-->
-                        </div>
-                        <div class="col-lg-4 col-md-6">
-                            <!--featured-imagebox-team-->
-                            <div class="featured-imagebox featured-imagebox-team style1">
+
+
+                        <div class="col-lg-5 d-flex">
+                           <div class="featured-imagebox featured-imagebox-team style1 my-auto">
                                 <div class="ttm-box-view-overlay">
                                     <!--featured-thumbnail-->
                                     <div class="featured-thumbnail">
-                                        <img class="img-fluid" src="{{ config('app.url') }}/assets/images/team-member/team-img01.jpg" alt="image">
+                                        <img class="img-fluid" src="{{ config('app.url') }}/assets/images/cp-sharma.jpg" alt="Pandit CP Sharma" style="object-position: top;">
                                     </div><!--featured-thumbnail end-->
                                 </div>
                                 <div class="featured-content box-shadow">
-                                    <p class="category">Wedding Stylist</p>
+                                    <p class="category">Founder & Wedding Designer</p>
                                     <div class="featured-title">
-                                        <h5><a href="#">Luis Em Hodge</a></h5>
+                                        <h5><a href="#">Pandit CP Sharma</a></h5>
                                     </div>
                                     <div class="featured-iconbox ttm-media-link">
                                         <div class="media-block">
                                             <div class="media-btn"><i class="ti ti-plus"></i></div>
                                             <ul class="social-icons list-inline">
-                                                <li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                                                <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                                                <li><a href="#" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                                                <li><a href="https://www.facebook.com/cp.sharma.7/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                                <li><a href="https://www.instagram.com/panditcp/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                                                <li><a href="https://www.linkedin.com/in/cp-sharma-04b71211a/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
                                             </ul>
                                         </div>
                                     </div>
                                 </div>
                             </div><!--featured-imagebox-team end-->
                         </div>
-                        <div class="col-lg-4 col-md-6">
-                            <!--featured-imagebox-team-->
-                            <div class="featured-imagebox featured-imagebox-team style1">
-                                <div class="ttm-box-view-overlay">
-                                    <!--featured-thumbnail-->
-                                    <div class="featured-thumbnail">
-                                        <img class="img-fluid" src="{{ config('app.url') }}/assets/images/team-member/team-img02.jpg" alt="image">
-                                    </div><!-- featured-thumbnail end-->
+                        <div class="col-lg-7" data-aos="fade" data-aos-duration="1000" data-aos-delay="500"
+                            data-aos-easing="ease-in-out">
+                            <div class="pl-25 res-991-pl-0 pt-55 res-991-pt-15 pb-15   ">
+                                <!--section title-->
+
+                                <div class="title-header mb-25">
+                                    <h3 class="title">About CP Sharma</h3>
                                 </div>
-                                <div class="featured-content box-shadow">
-                                    <p class="category">Event Manager</p>
-                                    <div class="featured-title">
-                                        <h5><a href="#">Enna Jr Rozwan</a></h5>
-                                    </div>
-                                    <div class="featured-iconbox ttm-media-link">
-                                        <div class="media-block">
-                                            <div class="media-btn"><i class="ti ti-plus"></i></div>
-                                            <ul class="social-icons list-inline">
-                                                <li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                                                <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                                                <li><a href="#" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
+
+
+
+
+                                <div class="pt-5">
+                                    <p>CP Sharma, the visionary behind Shadi Events, has been revolutionizing the
+wedding planning industry since 2013. As an experienced wedding designer, CP Sharma combines creativity and precision to craft unforgettable
+wedding experiences. His extensive background in event planning, even
+before founding Shadi Events, has made him a trusted name in cities like
+Agra, Vrindavan, Jaipur, and Delhi.</p>
+                                    <p>Beyond his expertise in wedding design, CP Sharma possesses a diverse
+skill set that includes graphic designing, fashion photography, and video
+editing. These additional talents enable him to bring a unique and creative
+perspective to every wedding, ensuring that each event is not only beautifully orchestrated but also visually stunning.</p>
+<p>With a passion for turning dreams into reality, CP Sharma and his team at
+Shadi Events are dedicated to delivering personalized and enchanting
+weddings. His meticulous attention to detail and deep understanding of
+clients' desires ensure that every wedding is a reflection of their unique
+love story. Whether planning an intimate gathering or a grand celebration,
+CP Sharma's expertise guarantees a flawless and memorable event.</p>
+
+<p>Join the many couples who have trusted CP Sharma to make their special
+day extraordinary. With Shadi Events, your wedding will be a beautifully orchestrated celebration, leaving you with cherished memories that last a
+lifetime.</p>
                                 </div>
-                            </div><!--featured-imagebox-team end-->
+
+
+
                         </div>
-                        <div class="col-lg-4 col-md-6">
-                            <!--featured-imagebox-team-->
-                            <div class="featured-imagebox featured-imagebox-team style1">
-                                <div class="ttm-box-view-overlay">
-                                    <!--featured-thumbnail-->
-                                    <div class="featured-thumbnail">
-                                        <img class="img-fluid" src="{{ config('app.url') }}/assets/images/team-member/team-img06.jpg" alt="image">
-                                    </div><!--featured-thumbnail end-->
-                                </div>
-                                <div class="featured-content box-shadow">
-                                    <p class="category">Event Stylist</p>
-                                    <div class="featured-title">
-                                        <h5><a href="#">Grace Harper</a></h5>
-                                    </div>
-                                    <div class="featured-iconbox ttm-media-link">
-                                        <div class="media-block">
-                                            <div class="media-btn"><i class="ti ti-plus"></i></div>
-                                            <ul class="social-icons list-inline">
-                                                <li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                                                <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                                                <li><a href="#" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div><!--featured-imagebox-team end-->
-                        </div>
-                        <div class="col-lg-4 col-md-6">
-                            <!--featured-imagebox-team-->
-                            <div class="featured-imagebox featured-imagebox-team style1">
-                                <div class="ttm-box-view-overlay">
-                                    <!--featured-thumbnail-->
-                                    <div class="featured-thumbnail">
-                                        <img class="img-fluid" src="{{ config('app.url') }}/assets/images/team-member/team-img03.jpg" alt="image">
-                                    </div><!--featured-thumbnail end-->
-                                </div>
-                                <div class="featured-content box-shadow">
-                                    <p class="category">Finance Manager</p>
-                                    <div class="featured-title">
-                                        <h5><a href="#">Ronney Hayden</a></h5>
-                                    </div>
-                                    <div class="featured-iconbox ttm-media-link">
-                                        <div class="media-block">
-                                            <div class="media-btn"><i class="ti ti-plus"></i></div>
-                                            <ul class="social-icons list-inline">
-                                                <li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                                                <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                                                <li><a href="#" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div><!--featured-imagebox-team end-->
-                        </div>
+
+                    </div>
+
+
                     </div><!--row end-->
                 </div>
             </section>

@@ -1074,7 +1074,7 @@ nav.main-menu ul.menu li ul.mega-submenu li a,
 .ttm-bgcolor-darkgrey .testimonials-info .testimonial-caption label,
 .ttm-bgcolor-skincolor .testimonials-info .testimonials .testimonial-content blockquote,
 .ttm-bgcolor-darkgrey .testimonials-info .testimonials .testimonial-content blockquote {
-    color: rgba(255,255,255,.85);
+    color: rgba(255,255,255);
 }
 .ttm-bgcolor-skincolor span, .ttm-bgcolor-skincolor i {
     color: rgba(255,255,255,.95);

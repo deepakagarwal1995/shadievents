@@ -93,7 +93,7 @@
     <div class="bottom-footer-text">
         <div class="container">
             <div class="row copyright">
-                <div class="col-md-6">
+                <div class="col-md-4">
                     <div class="social-icons circle social-hover">
                         <ul class="list-inline">
                             <li class="social-facebook">
@@ -124,10 +124,10 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <div class="text-right mt-20">
-                        <span style="    color: #999292;">Copyright ©2020.&nbsp;All rights reserved by &nbsp;<a
-                                href="https://svtindia.in/" target="_blank">SVTINDIA.</a></span>
+                <div class="col-md-8">
+                    <div class="text-md-right mt-20 text-center">
+                        <span style="    color: #999292;">© 2024 Shadievents | All rights reserved | Designed and Developed by &nbsp;<a
+                                href="https://svtindia.in/" target="_blank">SVT India.</a></span>
                     </div>
                 </div>
             </div>

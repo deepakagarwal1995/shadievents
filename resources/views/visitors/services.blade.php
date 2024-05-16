@@ -183,7 +183,9 @@
         var owl = $('.owl-carousel');
         owl.owlCarousel({
             margin: 10,
-
+autoplay:true,
+autoplayTimeout:3500,
+autoplayHoverPause:true,
             loop: true,
             responsive: {
                 0: {
