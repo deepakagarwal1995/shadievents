@@ -68,10 +68,9 @@
                                                 <img class="img-fluid" src="{{ Voyager::image( thumbnail($row->image,'medium') ) }}"
                                                     alt="Gallery" title="gallery-img">
                                                 <div class="ttm-media-link">
-                                                    <a class="ttm_prettyphoto ttm_image" title="gallery"
-                                                        data-rel="prettyPhoto"
-                                                        href="{{ Voyager::image( $row->image ) }}">
-                                                        <i class="ti ti-search"></i>
+                                                    <a class=" ttm_image" title="gallery"
+                                                        target="_blank" href="https://www.instagram.com/shadieventss/">
+                                                        <i class="ti ti-instagram"></i>
                                                     </a>
                                                 </div>
                                             </div>
@@ -125,7 +124,7 @@
                     </div>
                 </div>
                 <div class="col-md-8">
-                    <div class="text-md-right mt-20 text-center">
+                    <div class="text-md-right mt-20 text-center res-991-fs-10">
                         <span style="    color: #999292;">© 2024 Shadievents | All rights reserved | Designed and Developed by &nbsp;<a
                                 href="https://svtindia.in/" target="_blank">SVT India.</a></span>
                     </div>

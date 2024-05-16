@@ -431,11 +431,11 @@
     font-family: 'Montserrat';
     font-weight: 500;
 }.bg-img9 {
-     
+
     background-blend-mode: multiply;
     background-image: url(../images/5-web-photo.jpg);
-    background-image: url(../images/5-web-photo.jpg), linear-gradient(rgb(0 0 0 / 81%), rgb(0 0 0 / 47%)) !important;
-    background-color: unset !important;
+            background-image: url(../images/5-web-photo.jpg), linear-gradient(rgb(0 0 0 / 0%) 0%, rgb(0 0 0 / 33%) 25%, rgb(0 0 0 / 74%) 50%, #0a0a0a 75%, black 100%) !important;
+                background-color: unset !important;
 }
   .section-title { margin-bottom: 10px; }
   .section-title h2.title { font-size: 30px; line-height: 40px;}
@@ -497,7 +497,7 @@
     .spacing-11 { padding: 40px 15px 30px; margin: 15px; }
     .spacing-14 { padding-right: 0px; }
 
-
+  .res-991-fs-10{font-size: 10px;}
   .res-991-p-0 { padding: 0px !important; }
   .res-991-p-20 { padding: 20px !important; }
   .res-991-pt-0 { padding-top: 0 !important; }

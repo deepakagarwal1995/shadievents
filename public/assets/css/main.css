@@ -1940,7 +1940,7 @@ nav.main-menu ul.menu ul.mega-submenu li:hover > a:before { opacity: 1; }
 .widget_media_gallery .gallery-item .ttm-media-link a {
     position: absolute;
     top: 39%;
-    left: 40%;
+    left: 50%;
     opacity:0;
 }
 .widget_media_gallery .gallery-item:hover .ttm-media-link a {

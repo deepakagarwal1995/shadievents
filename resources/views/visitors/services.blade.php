@@ -111,6 +111,7 @@
                             </div>
 
                         </div>
+                       
                         <!--featured-imagebox-portfolio-->
 
                     </div>
@@ -128,7 +129,7 @@
                 <div class="row">
                     <div class="col-lg-4 col-sm-12">
                         <!--ttm_single_image-wrapper-->
-                        <div class="h-100 d-flex">
+                        <div class="h-100 d-flex res-991-pt-40">
                             <img class="img-fluid" src="{{ config('app.url') }}/assets/images/the-experience-script.svg"
                                 title="single-img-two" alt="single-img-two"
                                 style="height: 150px;margin: auto;display: block;">
@@ -161,7 +162,8 @@
             </div>
         </section>
 
-           <section class="ttm-row home-cta-section bg-img9 ttm-bgcolor-darkgrey clearfix mt-0">
+
+            <section class="ttm-row home-cta-section bg-img9 ttm-bgcolor-darkgrey clearfix mt-0 process">
                 <div class="container">
                     <!--row-->
                     <div class="row">
@@ -170,7 +172,7 @@
                                 <h2 class="wp-block-heading has-medium-font-size"><span class="script">How we do it</span></h2>
                                 <div class="section-title">
                                     <div class="title-header">
-                                        <h5>EMBRACING A TEAM APPROACH IS ESSENTIAL FOR YOUR EVENT’S SUCCESS. OUR DEDICATED TEAM IS COMPRISED OF FIVE FULL-TIME EXPERTS WITH FREELANCE SPECIALISTS IN EVERY MAJOR MARKETPLACE. OUR SPECIALISTS COLLABORATE TO UPHOLD THE HIGHEST STANDARDS AND DELIVER EXCELLENCE FOR EACH AND EVERY EVENT.</h5>
+                                        <h3>Embracing A Team Approach Is Essential For Your Event’s Success. Our Dedicated Team Is Comprised Of Five Full-time Experts With Freelance Specialists In Every Major Marketplace. Our Specialists Collaborate To Uphold The Highest Standards And Deliver Excellence For Each And Every Event</h3>
                                     </div>
                                 </div>
                                 <a class="ttm-btn ttm-btn-size-md ttm-btn-shape-rounded ttm-btn-style-border ttm-icon-btn-right ttm-btn-color-white"
@@ -192,7 +194,8 @@
         owl.owlCarousel({
             margin: 10,
 autoplay:true,
-autoplayTimeout:3500,
+autoplayTimeout:3500,pagination: false, nav: false,
+  dots: false,
             loop: true,
             responsive: {
                 0: {

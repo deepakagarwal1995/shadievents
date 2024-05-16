@@ -1,7 +1,14 @@
 @extends('layouts.app', ['title' =>'Meet The SE. | Shadievents'])
 
 @section('content')
-
+<style>
+    @media (max-width: 991px) {
+    .cps h3 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+}
+</style>
         <!--page-title-->
         <div class="ttm-page-title-row" style="    background-image: url({{ config('app.url') }}/assets/images/tenured-tips-hero-scaled.jpg);">
             <div class="ttm-page-title-row-inner ttm-bgcolor-darkgrey">
@@ -85,25 +92,16 @@
                                     <div class="featured-title">
                                         <h5><a href="#">Pandit CP Sharma</a></h5>
                                     </div>
-                                    <div class="featured-iconbox ttm-media-link">
-                                        <div class="media-block">
-                                            <div class="media-btn"><i class="ti ti-plus"></i></div>
-                                            <ul class="social-icons list-inline">
-                                                <li><a href="https://www.facebook.com/cp.sharma.7/" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                                                <li><a href="https://www.instagram.com/panditcp/" target="_blank"><i class="fa fa-instagram"></i></a></li>
-                                                <li><a href="https://www.linkedin.com/in/cp-sharma-04b71211a/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
+
                                 </div>
                             </div><!--featured-imagebox-team end-->
                         </div>
                         <div class="col-lg-7" data-aos="fade" data-aos-duration="1000" data-aos-delay="500"
                             data-aos-easing="ease-in-out">
-                            <div class="pl-25 res-991-pl-0 pt-55 res-991-pt-15 pb-15   ">
+                            <div class="pl-25 res-991-pl-0 pt-55 res-991-pt-50 pb-15   ">
                                 <!--section title-->
 
-                                <div class="title-header mb-25">
+                                <div class="title-header mb-25 res-991-mb-0 cps">
                                     <h3 class="title">About CP Sharma</h3>
                                 </div>
 

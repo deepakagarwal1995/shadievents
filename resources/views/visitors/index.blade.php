@@ -81,7 +81,7 @@
                 </div>
             </section>
 
-            <section class="ttm-row testimonial-section bg-img12 ttm-bg ttm-bgimage-yes clearfix">
+            <section class="ttm-row testimonial-section bg-img12 ttm-bg ttm-bgimage-yes clearfix res-991-pt-0">
                 <div class="container">
                     <!--row-->
                     <div class="row">
@@ -264,7 +264,7 @@ we have you covered.</p>
                                 <h2 class="wp-block-heading has-medium-font-size"><span class="script">Our Process</span></h2>
                                 <div class="section-title">
                                     <div class="title-header">
-                                        <h3>With a reputation spanning across India, Shadi events manage your needs by partnering with top-tier vendors
+                                        <h3>With a reputation spanning across India, Shadi Events manage your needs by partnering with top-tier vendors
 renowned for their exceptional quality and service. Our personalized approach ensures that every aspect of your
 event is expertly tailored to your preferences. Whether you're envisioning a standalone venue or a unique tent concept, rest assured, we have you covered.</h3>
                                     </div>
