@@ -95,10 +95,18 @@
                                     class="img-fluid">
                             </div>
                             <div class="item">
-                                <img src="{{ config('app.url') }}/assets/images/DSC04245.jpg" class="img-fluid">
+                                <img src="{{ config('app.url') }}/assets/images/165137325_3481385385300812_4387629160610638140_n.jpg" class="img-fluid">
                             </div>
                             <div class="item">
-                                <img src="{{ config('app.url') }}/assets/images/A42I7032.jpg"
+                                <img src="{{ config('app.url') }}/assets/images/D1010130.jpg"
+                                    class="img-fluid">
+                            </div>
+                            <div class="item">
+                                <img src="{{ config('app.url') }}/assets/images/1360558329101_n-1-min.jpg"
+                                    class="img-fluid">
+                            </div>
+                            <div class="item">
+                                <img src="{{ config('app.url') }}/assets/images/202468771_3731315330307815_7994710674440928600_n.jpg"
                                     class="img-fluid">
                             </div>
 
@@ -185,7 +193,6 @@
             margin: 10,
 autoplay:true,
 autoplayTimeout:3500,
-autoplayHoverPause:true,
             loop: true,
             responsive: {
                 0: {
