@@ -26,7 +26,7 @@
 
  =============== */
 window.onload = function() {
-  AOS.init();
+AOS.init();
 };
 
 

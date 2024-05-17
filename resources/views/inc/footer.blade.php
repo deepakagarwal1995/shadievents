@@ -125,9 +125,9 @@
                 <div class="col-md-4">
 
 
-                    <div class="text-md-left mt-20 text-center">
+                    <div class="text-md-left mt-20 text-center" style="    color: #999292;">
                         <span style="    color: #999292;"><a
-                                href="{{route('blog')}}" >Our Blogs</a> | <a
+                                href="{{route('blog')}}" >Our Blogs</a></span> | <span style="    color: #999292;"><a
                                 href="{{route('contact')}}" >Contact Us</a></span>
                     </div>
  <div class="text-md-right mt-20 text-center ">
