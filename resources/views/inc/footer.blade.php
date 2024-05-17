@@ -14,6 +14,36 @@
                         <div class="footer-logo">
                             <img id="footer-logo-img" class="img-center"
                                 src="{{ config('app.url') }}/assets/images/white-logo-lg.png" alt="">
+                                 <div class="social-icons circle social-hover">
+                        <ul class="list-inline">
+                            <li class="social-facebook">
+                                <a class="tooltip-top" target="_blank"
+                                    href="https://www.facebook.com/shadievents.tcom" data-tooltip="Facebook">
+                                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li class="social-twitter">
+                                <a class="tooltip-top" target="_blank" href="https://www.instagram.com/shadieventss/"
+                                    data-tooltip="Instagram">
+                                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li class="social-flickr">
+                                <a class=" tooltip-top" target="_blank"
+                                    href="https://api.whatsapp.com/send?phone=918868899888&text=Hello,%20I%20have%20a%20question"
+                                    data-tooltip="Whatsapp">
+                                    <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li class="social-linkedin">
+                                <a class=" tooltip-top" target="_blank"
+                                    href="https://www.linkedin.com/in/cp-sharma-04b71211a/" data-tooltip="LinkedIn">
+                                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
                         </div>
                         <div class="row no-gutters footer-box">
                             <div class="col-md-4 widget-area">
@@ -93,34 +123,15 @@
         <div class="container">
             <div class="row copyright">
                 <div class="col-md-4">
-                    <div class="social-icons circle social-hover">
-                        <ul class="list-inline">
-                            <li class="social-facebook">
-                                <a class="tooltip-top" target="_blank"
-                                    href="https://www.facebook.com/shadievents.tcom" data-tooltip="Facebook">
-                                    <i class="fa fa-facebook" aria-hidden="true"></i>
-                                </a>
-                            </li>
-                            <li class="social-twitter">
-                                <a class="tooltip-top" target="_blank" href="https://www.instagram.com/shadieventss/"
-                                    data-tooltip="Instagram">
-                                    <i class="fa fa-instagram" aria-hidden="true"></i>
-                                </a>
-                            </li>
-                            <li class="social-flickr">
-                                <a class=" tooltip-top" target="_blank"
-                                    href="https://api.whatsapp.com/send?phone=918868899888&text=Hello,%20I%20have%20a%20question"
-                                    data-tooltip="Whatsapp">
-                                    <i class="fa fa-whatsapp" aria-hidden="true"></i>
-                                </a>
-                            </li>
-                            <li class="social-linkedin">
-                                <a class=" tooltip-top" target="_blank"
-                                    href="https://www.linkedin.com/in/cp-sharma-04b71211a/" data-tooltip="LinkedIn">
-                                    <i class="fa fa-linkedin" aria-hidden="true"></i>
-                                </a>
-                            </li>
-                        </ul>
+
+
+                    <div class="text-md-left mt-20 text-center">
+                        <span style="    color: #999292;"><a
+                                href="{{route('blog')}}" >Our Blogs</a> | <a
+                                href="{{route('contact')}}" >Contact Us</a></span>
+                    </div>
+ <div class="text-md-right mt-20 text-center ">
+
                     </div>
                 </div>
                 <div class="col-md-8">

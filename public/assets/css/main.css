@@ -2305,9 +2305,13 @@ article.ttm-blog-classic .ttm-blog-classic-content {
     padding: 22px 30px 16px 30px;
     position: relative;
     display: block;
-    margin-right: 40px;
-    margin-top: -173px;
+
     box-shadow: 0 0 10px 0 rgba(18,31,56,.1);
+}
+.post .ttm-post-featured img{
+    height: 218px;
+        object-fit: cover;
+        width: 100%;
 }
 .ttm-blog-classic .entry-header .ttm-blogbox-cat {
     padding: 6px 0 4px;
@@ -2321,9 +2325,12 @@ article.ttm-blog-classic .ttm-blog-classic-content {
     font-size: 14px;
     text-transform: uppercase;
     color: #8d9297;
+}.ttm-box-desc-text{
+        height: 79px;
+            overflow: hidden;
 }
 .ttm-blog-classic .entry-header .entry-title {
-    font-size: 36px;
+    font-size: 25px;
     line-height: 45px;
     margin-bottom: 10px;
     position: relative;

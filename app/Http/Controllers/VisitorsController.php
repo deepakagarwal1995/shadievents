@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Enquiry;
-use App\Models\Footer_gallery;
+use App\Models\Post;
 use App\Models\Portfolio;
 use App\Models\Service;
 use Illuminate\Http\Request;
@@ -79,9 +79,21 @@ class VisitorsController extends Controller
      * @param  \App\Models\Enquiry  $enquiry
      * @return \Illuminate\Http\Response
      */
-    public function edit(Enquiry $enquiry)
+    public function blog()
     {
-        //
+        $posts = Post::where('status', 'PUBLISHED')->latest()->get();
+        $featured = Post::where('featured', '1')->latest()->skip(0)->take(10)->get();
+        $title = 'Our Blogs | Shadievents';
+        return view('visitors.blog', compact('title', 'posts', 'featured'));
+    }
+
+    public function blogSingle(Request $request)
+    {
+        $slug = $request->slug;
+        $post = Post::where('slug', $slug)->first();
+        $featured = Post::where('featured', '1')->latest()->skip(0)->take(10)->get();
+
+        return view('visitors.blog-single', compact('post', 'featured'));
     }
 
     /**

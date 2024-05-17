@@ -3711,13 +3711,14 @@ input[type=checkbox], input[type=radio] {
 }
 .widget ul.ttm-recent-post-list>li> .post-detail a {
     line-height: 21px;
-    display: block;
+    display: block;height: 62px;
+        overflow: hidden;
 }
 .widget ul.ttm-recent-post-list>li img {
     display: block;
     width: 80px;
     height: 80px;
-    float: left;
+    float: left;object-fit: cover;
     margin-right: 18px;
 }
 .widget ul.ttm-recent-post-list>li .post-date {
