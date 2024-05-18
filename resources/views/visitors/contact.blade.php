@@ -35,7 +35,7 @@
                                             <h5>Address</h5>
                                             <p>503 Besera Heights, Fatehabad Road, Near Jaypee Palace, Agra</p>
                                             <div class="ttm-horizontal_sep width-100 mb-20"></div>
-                                            <a class="ttm-btn-color-skincolor" href="https://maps.app.goo.gl/SYwqiaEyKJbpfeSw9" target="_blank">View On Google Map</a>
+                                            <a class="ttm-btn-color-skincolor" href="https://maps.app.goo.gl/xa1KgiWCv5k6j2AK7" target="_blank">View On Google Map</a>
                                         </div>
                                     </div>
                                     <div class="col-lg-4 col-md-4 col-sm-12">
@@ -142,7 +142,7 @@
     <span aria-hidden="true">&times;</span>
   </button>
 </div>
-    
+
 @endif
                                         <form action="{{ route('enquiry-store') }}" class="contactform wrap-form pt-5 clearfix" method="post" method="POST">
                                              @csrf
@@ -198,7 +198,7 @@
 
 
             <!--google_map-->
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3550.2127765139985!2d78.06996353677144!3d27.14959478810317!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39746cf610567e65%3A0x46ae23f8054d6702!2sShadi%20Events!5e0!3m2!1sen!2sin!4v1715598064002!5m2!1sen!2sin" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d113557.4072799117!2d77.8825592290483!3d27.198138913743364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397477999b41bab1%3A0xe4b7705834dd87ad!2sShadi%20Events!5e0!3m2!1sen!2sin!4v1716013874107!5m2!1sen!2sin" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
             <!--portfolio-section_3 end-->
 
