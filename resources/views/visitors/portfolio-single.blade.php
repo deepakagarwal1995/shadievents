@@ -31,9 +31,9 @@
                     <div class="col-sm-12 text-center">
                         <div class="kt-inside-inner-col8 aos-init" data-aos="fade">
                             <div class="wp-block-kadence-column kadence-column1576_7c0b68-c5">
-                                <h2 class="wp-block-heading has-text-align-center" style="margin-bottom:0.5em">{{$portfolio->place}}</h2>
+                                <h2 class="wp-block-heading has-text-align-center" style="margin-bottom:0.5em">{{$portfolio->name}}</h2>
                                 <p class="has-text-align-center has-gold-color has-text-color"
-                                    style="letter-spacing:0.25em;text-transform:uppercase">{{$portfolio->name}}</p>
+                                    style="letter-spacing:0.25em;text-transform:uppercase">{{$portfolio->place}}</p>
                                 <h6 class="wp-block-heading has-text-align-center"
                                     style="margin-bottom:0.5em;letter-spacing:0.25em;text-transform:uppercase">PHOTOGRAPHY |
                                     <a href="{{$portfolio->instaLink}}" target="_blank"><mark style="background-color:rgba(0, 0, 0, 0)"
