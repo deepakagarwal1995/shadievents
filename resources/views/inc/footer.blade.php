@@ -136,7 +136,7 @@
                 </div>
                 <div class="col-md-8">
                     <div class="text-md-right mt-20 text-center res-991-fs-10">
-                        <span style="    color: #999292;">© 2024 Shadievents | All rights reserved | Designed and Developed by &nbsp;<a
+                        <span style="    color: #999292;">© 2024 Shadievents | All rights reserved | Designed and Developed by <a
                                 href="https://svtindia.in/" target="_blank">SVT India.</a></span>
                     </div>
                 </div>
