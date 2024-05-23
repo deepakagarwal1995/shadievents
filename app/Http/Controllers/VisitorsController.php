@@ -17,7 +17,7 @@ class VisitorsController extends Controller
      */
     public function index()
     {
-        $title = 'Wedding Planner in Agra | Shadievents';
+        $title = 'Best Wedding Planner In Agra || Shadi Events';
         return view('visitors.index', compact('title'));
     }
     public function portfolio()

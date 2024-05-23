@@ -132,19 +132,11 @@ At Shadi Events, from venue selection to decor design, vendor coordination to gu
 
 
                                 <div class="pt-5">
-                                    <p>Since our inception in 2013, we have been at the forefront of delivering
-                                        ultra-luxurious wedding planning and design
-                                        services to a INDIA clientele. Our expertise has shown us that love knows no
-                                        geographical limits, and our services
-                                        are crafted to embody this boundless spirit.</p>
-                                    <p>We excel in embracing sophisticated challenges, whether it’s orchestrating a
-                                        lavish destination wedding or
-                                        transforming spaces into realms of opulence. As visionaries in grandeur and
-                                        masters of logistics, we redefine the
-                                        possibilities for your exclusive wedding weekend.</p>
-                                    <p>With a network of the finest partners worldwide, we are not just dreamers but
-                                        also creators of your most extravagant
-                                        dreams, ensuring every detail reflects the pinnacle of luxury and elegance.</p>
+                                    <p>Since our inception in 2013, we have been at the forefront of providing luxurious wedding planning and design services to Indian clients. That is why today we are known as the top wedding planners in Agra & Vrindavan. Our expertise has shown us that love has no geographical boundaries, and we understand your love at heart so our services are designed to embody this limitless feeling.</p>
+
+<p>We excel in taking on sophisticated challenges, be it organizing a grand destination wedding or transforming venues into realms of opulence. As visionaries and masters in grandeur, we redefine the possibilities for your special wedding weekend.</p>
+
+<p>With a network of the finest partners across the globe, we are not only dreamers but also creators of your most extraordinary dreams, ensuring that every detail reflects the zenith of luxury and classiness.</p>
                                 </div>
                                 <div class="pt-5">
                                     <a class="wp-block-button__link wp-element-button" href="{{route('meet')}}">Meet The Team</a>
@@ -175,14 +167,8 @@ At Shadi Events, from venue selection to decor design, vendor coordination to gu
 
 
                                 <div class="pt-5">
-                                    <p>With a reputation spanning across India, we
-manage your needs by partnering with top-tier vendors renowned for their exceptional
-quality and service. Our personalized
-approach ensures that every aspect of your
-event is expertly tailored to your preferences.
-Whether you're envisioning a standalone
-venue or a unique tent concept, rest assured,
-we have you covered.</p>
+                                    <p>With a pan-India reputation, we are renowned for our exceptional quality and service. That's why our team partners with top-tier vendors to manage your needs.<br>
+Our personalized approach ensures that every aspect of your program is expertly tailored to your preferences. Whether you are envisioning a standalone venue or a unique tent concept, rest assured that you are now with the best event management company in Agra.</p>
                                 </div>
                                 <div class="pt-5">
                                     <a class="wp-block-button__link wp-element-button" href="{{route('services')}}">OUR SERVICES</a>
