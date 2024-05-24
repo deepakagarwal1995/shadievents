@@ -26,7 +26,7 @@ Route::get('/service/{slug}', [VisitorsController::class, 'service'])->name('ser
 Route::post('/enquiry-submit', [VisitorsController::class, 'enquiryStore'])->name('enquiry-store');
 Route::get('/blog', [VisitorsController::class, 'blog'])->name('blog');
 Route::get('/blog/{slug}', [VisitorsController::class, 'blogSingle'])->name('blogSingle');
-Route::get('/meet-the-co', function () {
+Route::get('/meet-top-wedding-planner-agra', function () {
     return view('visitors.meet');
 })->name('meet');
 Route::get('/contact-us', function () {

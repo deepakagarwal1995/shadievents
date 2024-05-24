@@ -160,6 +160,89 @@ AOS.init();
 
     });
 
+
+    /*------------------------------------------------------------------------------*/
+    /* slick_slider
+    /*------------------------------------------------------------------------------*/
+
+    $(".slick_slider").slick({
+        speed: 1000,
+        infinite: true,
+        arrows: false,
+        dots: false,
+        autoplay: false,
+        centerMode: false,
+
+        responsive: [{
+
+            breakpoint: 1360,
+            settings: {
+                slidesToShow: 3,
+                slidesToScroll: 3
+            }
+        },
+        {
+
+            breakpoint: 1024,
+            settings: {
+                slidesToShow: 3,
+                slidesToScroll: 3
+            }
+        },
+        {
+
+            breakpoint: 680,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2
+            }
+        },
+        {
+            breakpoint: 575,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+            }
+        }]
+    });
+
+
+    /* testimonials */
+    var testinav = jQuery('.testimonials-nav', this);
+    var testiinfo = jQuery('.testimonials-info', this);
+
+    jQuery('.testimonials-info', this).slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        fade: false,
+        arrows: false,
+        asNavFor: testinav,
+        adaptiveHeight: true,
+        speed: 1500,
+        autoplay: true,
+        autoplaySpeed: 1500,
+        infinite: true,
+    });
+
+    jQuery('.testimonials-nav', this).slick({
+
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        asNavFor: testiinfo,
+        centerMode: true,
+        centerPadding: 0,
+        focusOnSelect: true,
+        autoplay: true,
+        autoplaySpeed: 1500,
+        speed: 1500,
+        arrows: true,
+        dots: false,
+        variableWidth: true,
+        infinite: true,
+
+
+    });
+
 /*------------------------------------------------------------------------------*/
 /* Animation on scroll: Number rotator
 /*------------------------------------------------------------------------------*/

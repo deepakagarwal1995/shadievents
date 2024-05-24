@@ -7,5 +7,6 @@
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="{{ config('app.url') }}/assets/js/imagesloaded.min.js"></script>
     <script src="{{ config('app.url') }}/assets/js/jquery-isotope.js"></script>
+    <script src="{{ config('app.url') }}/assets/js/slick.min.js"></script>
 
     <script src="{{ config('app.url') }}/assets/js/main.js"></script>

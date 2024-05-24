@@ -236,6 +236,90 @@ Our personalized approach ensures that every aspect of your program is expertly 
 
                 </div>
             </section>
+
+             <section class="ttm-row testimonial-section bg-img12 ttm-bg ttm-bgimage-yes clearfix">
+                <div class="container">
+                    <!--row-->
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <!--section title-->
+                            <div class="section-title title-style-center_text">
+                                <div class="title-header">
+
+                                    <h2 class="title">What Our Clients Say?</h2>
+                                </div>
+                            </div><!--section title end-->
+                        </div>
+                    </div><!--row end-->
+                    <!--row-->
+                    <div class="row slick_slider text-center" data-slick='{"slidesToShow": 2, "slidesToScroll": 1, "arrows":false, "autoplay":true, "dots":false, "infinite":true, "responsive":[{"breakpoint":1199,"settings": {"slidesToShow": 3}}, {"breakpoint":992,"settings":{"slidesToShow": 2}},{"breakpoint":620,"settings":{"slidesToShow": 1}}]}'>
+                        <div class="col-lg-6">
+                            <!--testimonials-->
+                            <div class="testimonials style1">
+
+                                <div class="testimonial-content">
+                                    <i class="ti-quote-left"></i>
+                                    <blockquote>One of the best wedding planners in Agra. Their team well organized our luxury wedding from start to end. The owner is a Very down to earth person.
+                                    </blockquote>
+                                    <div class="testimonial-caption">
+                                        <h5>Richa Sharma</h5>
+
+                                    </div>
+                                </div>
+                            </div><!--testimonials end-->
+                        </div>
+                        <div class="col-lg-6">
+                            <!-- testimonials-->
+                            <div class="testimonials style1">
+                                <div class="testimonial-content">
+                                    <i class="ti-quote-left"></i>
+                                    <blockquote>Happy with the wedding planning services of Shadi Events.
+We highly recommend Shadi Events for the best event management company in Agra.
+Team Shadi Events you are the best.
+</blockquote>
+                                    <div class="testimonial-caption">
+                                        <h5>Rohit Mehra</h5>
+
+                                    </div>
+                                </div>
+                            </div><!--testimonials end-->
+                        </div>
+                        <div class="col-lg-6">
+                            <!--testimonials-->
+                            <div class="testimonials style1">
+
+                                <div class="testimonial-content">
+                                    <i class="ti-quote-left"></i>
+                                    <blockquote>It was very pleasent experince and awosome planning done by team Shadi Events. it was my sister wedding and i was too worried about the all arrangements but honestly i enjoyed the 3 days wedding function without a single glitch
+                                    </blockquote>
+                                    <div class="testimonial-caption">
+                                        <h5>Pratham Agarwal</h5>
+
+                                    </div>
+                                </div>
+                            </div><!--testimonials end-->
+                        </div>
+                        <div class="col-lg-6">
+                            <!--testimonials -->
+                            <div class="testimonials style1">
+
+                                <div class="testimonial-content">
+                                    <i class="ti-quote-left"></i>
+                                    <blockquote>We had a wonderful experience with Shadi Events at my brother's marriage. The team had taken care of all arrangements magnificently. Moreover, they managed and arranged the event within our target budget efficiently. I highly recommend Shadi Events</blockquote>
+                                    <div class="testimonial-caption">
+                                        <h5>Priya Lalwani</h5>
+
+                                    </div>
+                                </div>
+                            </div><!--testimonials end-->
+                        </div>
+                    </div><!--row end-->
+                </div>
+            </section>
+            <!--testimonial-section end-->
+
+
+
             <section class="ttm-row home-cta-section bg-img9 ttm-bgcolor-darkgrey clearfix mt-90 process">
                 <div class="container">
                     <!--row-->
