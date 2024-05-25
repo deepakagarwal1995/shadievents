@@ -49,12 +49,12 @@
                                         <!--section title-->
                                         <div class="section-title">
                                             <div class="title-header">
-                                                <h2 class="title">CRAFTING LUXURY WEDDINGS ACROSS THE INDIA FOR OVER ELEVEN YEARS.</h2>
+                                                <h2 class="title">Best Wedding Planner In Agra</h2>
                                             </div>
                                             <div class="title-desc">
-                                                <h6 class="mt-5">AVAILABLE ANYWHERE THE Wedding TAKES YOU.</h6>
-                                                <p></p>
-                                                <h6>BASED IN THE AGRA.</h6>
+                                                <h6 class="mt-5">Shadi Events is the best wedding planner in Agra as we have been known for planning luxury weddings all over India for more than 11 years. Whatever you dream for your wedding we are experts in making that dream come true.
+</h6>
+
 
                                             </div>
                                         </div><!--section title end-->
