@@ -1,5 +1,27 @@
-@extends('layouts.app', ['title' =>'Meet The SE. | Shadievents'])
+@extends('layouts.app', ['title' =>'CP Sharma || Top Rated Wedding Planner In Agra, Mathura'])
 
+@section('head')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "Person",
+  "name": "CP Sharma",
+  "url": "https://www.shadievents.com/meet-top-wedding-planner-agra",
+  "image": "https://shadievents.com/assets/images/cp-sharma.jpg",
+  "sameAs": [
+    "https://www.facebook.com/cp.sharma.7",
+    "https://www.instagram.com/panditcp",
+    "https://www.linkedin.com/in/cp-sharma-04b71211a/"
+  ],
+  "jobTitle": "Founder",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "Shadi Events"
+  }
+}
+</script>
+
+@endsection
 @section('content')
 <style>
     @media (max-width: 991px) {
@@ -109,25 +131,12 @@
 
 
                                 <div class="pt-5">
-                                    <p>CP Sharma, the visionary behind Shadi Events, has been revolutionizing the
-wedding planning industry since 2013. As an experienced wedding designer, CP Sharma combines creativity and precision to craft unforgettable
-wedding experiences. His extensive background in event planning, even
-before founding Shadi Events, has made him a trusted name in cities like
-Agra, Vrindavan, Jaipur, and Delhi.</p>
-                                    <p>Beyond his expertise in wedding design, CP Sharma possesses a diverse
-skill set that includes graphic designing, fashion photography, and video
-editing. These additional talents enable him to bring a unique and creative
-perspective to every wedding, ensuring that each event is not only beautifully orchestrated but also visually stunning.</p>
-<p>With a passion for turning dreams into reality, CP Sharma and his team at
-Shadi Events are dedicated to delivering personalized and enchanting
-weddings. His meticulous attention to detail and deep understanding of
-clients' desires ensure that every wedding is a reflection of their unique
-love story. Whether planning an intimate gathering or a grand celebration,
-CP Sharma's expertise guarantees a flawless and memorable event.</p>
+                                    <p>CP Sharma is a top-rated wedding planner in Agra who is the CEO and Founder of Shadi Events. They have been revolutionizing the wedding planning industry since 2013. As an experienced wedding designer, CP Sharma combines creativity and precision to craft unforgettable wedding experiences.</p>
 
-<p>Join the many couples who have trusted CP Sharma to make their special
-day extraordinary. With Shadi Events, your wedding will be a beautifully orchestrated celebration, leaving you with cherished memories that last a
-lifetime.</p>
+<p>Apart from expertise in wedding planning, CP Sharma has diverse skills which include graphic designing, fashion photography and video editing. These additional talents make him the top wedding planner in Agra, Jaipur, Delhi, and Vrindavan. so every wedding he designs becomes special.</p>
+
+<p>Shadi Events is the best event management company in Agra and many couples have chosen CP Sharma to create a wonderful wedding experience for them. When you work with CP Sharma to plan your wedding you will know that your wedding will be expertly planned and will provide you with priceless memories that will last a lifetime.
+</p>
                                 </div>
 
 
