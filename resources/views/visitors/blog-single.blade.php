@@ -2,6 +2,17 @@
 
 
 @section('head')
+<style>
+
+    .ttm-blog-single-content h3{
+        font-size: 25px;
+    }
+        .ttm-blog-single-content h2{ font-size: 30px;
+    }
+            .ttm-blog-single-content h4{ font-size: 20px;
+    }
+
+</style>
 
 @php
         $protocol =
@@ -39,8 +50,6 @@
  },
 </script>
 
-
-<meta property="og:image" content="{{Voyager::image($post->image)}}" />
 <meta property="og:image:type" content="image/png" />
 <meta property="article:publisher" content="https://www.facebook.com/shadievents.tcom" />
 <meta name="page_content" content="{{$post->seo_title}}"/>
@@ -80,7 +89,8 @@
         }
     </style>
     <!--page-title-->
-    <div class="ttm-page-title-row" style="    background-image: url({{ Voyager::image($post->image) }});">
+    <div class="ttm-page-title-row" style="    background-image: url({{ Voyager::image($post->image) }});    background-color: rgb(0 0 0 / 53%);
+    background-blend-mode: multiply;">
         <div class="ttm-page-title-row-inner ttm-bgcolor-darkgrey">
             <div class="container">
                 <div class="row align-items-center">

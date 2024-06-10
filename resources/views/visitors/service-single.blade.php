@@ -1,7 +1,45 @@
-@extends('layouts.app', ['title' => $title])
+@extends('layouts.app', ['title' => $title,'ogimage'=>Voyager::image($service->mainImage),'descr'=>$service->meta])
 
 @section('head')
 <meta name="page_content" content="{{$service->title}} | {{$service->subtitle}}"/>
+<style>
+    .portfolio-section_3 a{
+            color: #ad8400;
+    }
+    .portfolio-section_3 h3{
+        font-size: 25px;
+    }
+        .portfolio-section_3 h2{ font-size: 30px;
+    }
+            .portfolio-section_3 h4{ font-size: 20px;
+    }
+
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "Service",
+  "name": "{{$service->title}}",
+  "image": "{{Voyager::image($service->mainImage)}}",
+  "description": "{{$service->meta}}",
+  "brand": {
+    "@type": "Brand",
+    "name": "Shadi Events"
+  },
+
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5",
+    "bestRating": "5",
+    "worstRating": "1",
+    "ratingCount": "288",
+    "reviewCount": "18"
+  },
+   "review": [
+  ]
+}
+</script>
+
 @endsection
 
 @section('content')

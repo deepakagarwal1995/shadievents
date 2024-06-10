@@ -2,6 +2,34 @@
 
 @section('head')
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+
+    <script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "ItemList",
+    "url": "https://www.shadievents.com/services",
+    "numberOfItems": "5",
+    "name": "Wedding Management Services",
+    "description": "Experience seamless wedding planning with Shaadi Events. Our expert team specializes in comprehensive wedding management services, including venue selection, decoration, catering, and entertainment.",
+    "itemListElement": [
+         @foreach ($services as $row)
+        {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+                "@type": "Service",
+                "image": "{{ Voyager::image($row->mainImage) }}",
+                "url": "{{route('service',$row->slug)}}",
+                "name": "{{$row->title}}"
+            }
+        }
+        @if (!$loop->last),@endif
+        @endforeach
+    ]
+}
+</script>
+
+
 @endsection
 
 @section('content')
@@ -46,7 +74,7 @@
                                 <div class="ttm-box-view-content-inner">
                                     <!--featured-thumbnail-->
                                     <div class="featured-thumbnail">
-                                        <img class="img-fluid" src="{{ Voyager::image( thumbnail($row->mainImage,'medium') ) }}" alt="image">
+                                        <img class="img-fluid" src="{{ Voyager::image( thumbnail($row->mainImage,'medium') ) }}" alt="{{$row->title}}">
                                     </div> <!--featured-thumbnail end-->
                                     <div class="ttm-media-link">
 
@@ -111,7 +139,7 @@
                             </div>
 
                         </div>
-                       
+
                         <!--featured-imagebox-portfolio-->
 
                     </div>
