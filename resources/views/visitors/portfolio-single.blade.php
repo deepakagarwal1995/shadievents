@@ -28,6 +28,17 @@
             <div class="container">
                 <!--row-->
                 <div class="row">
+                     <div class="col-sm-12 text-center" style="margin-bottom: 22px;">
+                        <a href="#0">
+                            <img class="img-fluid" src="{{ config('app.url') }}/assets/images/Wedfraftt.jpg"
+                                style="max-height: 55px;margin-right: 10px;">
+                        </a>
+                        <a href="#0">
+                            <img class="img-fluid" src="{{ config('app.url') }}/assets/images/logoonestory.jpg"
+                                style="max-height: 55px;">
+                        </a>
+
+                    </div>
                     <div class="col-sm-12 text-center">
                         <div class="kt-inside-inner-col8 aos-init" data-aos="fade">
                             <div class="wp-block-kadence-column kadence-column1576_7c0b68-c5">
