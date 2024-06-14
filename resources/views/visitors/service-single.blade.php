@@ -70,7 +70,17 @@
             <div class="container">
                 <!--row-->
                 <div class="row">
+                <div  class="col-sm-12 text-center">
+                    <a href="#0">
+                            <img class="img-fluid" src="{{ config('app.url') }}/assets/images/Wedfraftt.jpg">
+                        </a>
+                     <a href="#0">
+                            <img class="img-fluid" src="{{ config('app.url') }}/assets/images/logoonestory.jpg">
+                        </a>
+                     
+                </div>
                     <div class="col-sm-12 ">
+
                         {!! $service->descr !!}
 
                     </div>
