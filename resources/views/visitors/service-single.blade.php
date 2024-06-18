@@ -73,7 +73,7 @@
             <div class="container">
                 <!--row-->
                 <div class="row">
-                    <div class="col-sm-12 text-center" style="margin-bottom: 22px;">
+                    {{-- <div class="col-sm-12 text-center" style="margin-bottom: 22px;">
                         <a href="#0">
                             <img class="img-fluid" src="{{ config('app.url') }}/assets/images/Wedfraftt.jpg"
                                 style="max-height: 55px;margin-right: 10px;">
@@ -83,7 +83,7 @@
                                 style="max-height: 55px;">
                         </a>
 
-                    </div>
+                    </div> --}}
 
                     <div class="col-sm-12 ">
 
