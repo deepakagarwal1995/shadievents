@@ -57,7 +57,7 @@
      <section class="ttm-row portfolio-section_3 clearfix">
                 <div class="container">
                     <!--row-->
-                    <div class="row">
+                    <div class="row d-flex justify-content-center">
                          <div class="col-sm-12 text-center">
 
                                          <h1 class="page-title">Wedding with our expert services</h1>

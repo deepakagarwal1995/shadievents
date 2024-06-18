@@ -28,7 +28,7 @@
             <div class="container">
                 <!--row-->
                 <div class="row">
-                     <div class="col-sm-12 text-center" style="margin-bottom: 22px;">
+                     {{-- <div class="col-sm-12 text-center" style="margin-bottom: 22px;">
                         <a href="#0">
                             <img class="img-fluid" src="{{ config('app.url') }}/assets/images/Wedfraftt.jpg"
                                 style="max-height: 55px;margin-right: 10px;">
@@ -38,7 +38,7 @@
                                 style="max-height: 55px;">
                         </a>
 
-                    </div>
+                    </div> --}}
                     <div class="col-sm-12 text-center">
                         <div class="kt-inside-inner-col8 aos-init" data-aos="fade">
                             <div class="wp-block-kadence-column kadence-column1576_7c0b68-c5">
@@ -48,7 +48,7 @@
                                 <h6 class="wp-block-heading has-text-align-center"
                                     style="margin-bottom:0.5em;letter-spacing:0.25em;text-transform:uppercase">PHOTOGRAPHY |
                                     <a href="{{$portfolio->instaLink}}" target="_blank"><mark style="background-color:rgba(0, 0, 0, 0)"
-                                        class="has-inline-color has-gold-color"> Instagram</mark></a> </h6>
+                                        class="has-inline-color has-gold-color"> {{$portfolio->p_link}}</mark></a> </h6>
                             </div>
                         </div>
                     </div>

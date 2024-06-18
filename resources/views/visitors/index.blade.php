@@ -53,7 +53,7 @@
     line-height: 43px;">CRAFTING LUXURY WEDDINGS ACROSS THE INDIA FOR OVER ELEVEN YEARS.</h1>
                                             </div>
                                             <div class="title-desc">
-                                                <p class="mt-5" style="font-size: 0.79rem;font-weight: 500;letter-spacing: 0.21em;line-height: 2.2;text-transform: uppercase;">Shadi Events is the best wedding planner in Agra as we have been known for planning luxury weddings all over India for more than 11 years. Whatever you dream for your wedding we are experts in making that dream come true.
+                                                <p class="mt-5" style="font-size: 0.79rem;font-weight: 500;letter-spacing: 0.21em;line-height: 2.2;text-transform: uppercase;">Available anywhere the wedding takes you<br>Based in the agra
                                                 </p>
 
 

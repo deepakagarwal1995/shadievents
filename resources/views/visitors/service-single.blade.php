@@ -54,7 +54,7 @@
                 <div class="row align-items-center">
                     <div class="col-lg-12">
                         <div class="page-title-heading">
-                            <h1 class="title"> {{ $service->title }} </h1>
+                            <h1 class="title" style="    text-transform: uppercase;"> {{ $service->title }} </h1>
                         </div>
                     </div>
                 </div>
