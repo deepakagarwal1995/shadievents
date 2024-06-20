@@ -92,7 +92,7 @@
                                 <div class="title-header mb-25">
                                     <h2 class="title">BIG MOMENTS REQUIRE BIG PLANS.</h2>
                                 </div>
-                                <h6>Welcome to Shadi Events, where we believe in the magic of turning dreams into reality. With an expert team of <a href="https://shadievents.com/meet-top-wedding-planner-agra" style="    color: #ad8400;">top wedding planners in Agra</a> at your service, we specialize in organizing weddings beyond the ordinary. Right from the moment you share your vision with us, we set out on a journey to create an unforgettable experience that reflects your love story in every detail.
+                                <h6>Welcome to Shadi Events, where we believe in the magic of turning dreams into reality. With an expert team of <a href="https://shadievents.com/meet-top-wedding-planner-agra" style="color: #ad8400;">top wedding planners in Agra</a> at your service, we specialize in organizing weddings beyond the ordinary. Right from the moment you share your vision with us, we set out on a journey to create an unforgettable experience that reflects your love story in every detail.
                                 </h6>
 
                                 <h6>
