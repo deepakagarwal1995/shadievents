@@ -92,12 +92,12 @@
                                 <div class="title-header mb-25">
                                     <h2 class="title">BIG MOMENTS REQUIRE BIG PLANS.</h2>
                                 </div>
-                                <h6>Welcome to Shadi Events, where we believe in the magic of turning dreams into reality. With an expert team of top wedding planners in Agra at your service, we specialize in organizing weddings beyond the ordinary. Right from the moment you share your vision with us, we set out on a journey to create an unforgettable experience that reflects your love story in every detail.
+                                <h6>Welcome to Shadi Events, where we believe in the magic of turning dreams into reality. With an expert team of <a href="https://shadievents.com/meet-top-wedding-planner-agra">top wedding planners in Agra</a> at your service, we specialize in organizing weddings beyond the ordinary. Right from the moment you share your vision with us, we set out on a journey to create an unforgettable experience that reflects your love story in every detail.
                                 </h6>
 
                                 <h6>
-At Shadi Events, from venue selection to decor design, vendor coordination to guest experience, we handle every aspect of your special day with care and creativity, that's why we are the best wedding planners in Agra.</h6>
-                                <h6>With the best event management company in Agra, you can rest easy knowing that your wedding is in the hands of event management experts. Because when your big day arrives, nothing less than perfection will do.</h6>
+At Shadi Events, from venue selection to decor design, vendor coordination to guest experience, we handle every aspect of your special day with care and creativity, that's why we are the <a href="https://shadievents.com">best wedding planners in Agra</a>.</h6>
+                                <h6>With the <a href="https://shadievents.com">best event management company in Agra</a>, you can rest easy knowing that your wedding is in the hands of event management experts. Because when your big day arrives, nothing less than perfection will do.</h6>
                             </div><!--section title end-->
                         </div>
                     </div><!--row end-->
