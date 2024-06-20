@@ -3,7 +3,13 @@
 
 @section('head')
 <style>
+ .ttm-blog-single-content td{
+        padding: 10px;
 
+}
+ .ttm-blog-single-content td p{
+       margin-bottom: 0;
+}
     .ttm-blog-single-content h3{
         font-size: 25px;
     }
