@@ -93,7 +93,9 @@
                                                         <h5>Location</h5>
                                                     </div>
                                                     <div class="featured-desc">
-                                                        <p>503 Besera Heights, Fatehabad Road, <br>Near Jaypee Palace, Agra</p>
+                                                        <p><b>Agra:Office</b><br>503 Besera Heights, Fatehabad Road, Near Jaypee Palace, Agra</p><br>
+                                                        <p><b>New Delhi:Head Office</b><br>
+                                                        A 66,2nd floor, Rajouri Garden Opposite Rajouri Metro Gate 5 - 110027</p>
                                                     </div>
                                                 </div>
                                             </div><!-- featured-icon-box end -->

@@ -49,8 +49,8 @@
                                         <!--section title-->
                                         <div class="section-title">
                                             <div class="title-header">
-                                                <h1 class="title" style="    font-size: 32px;
-    line-height: 43px;">CRAFTING LUXURY WEDDINGS ACROSS THE INDIA FOR OVER ELEVEN YEARS.</h1>
+                                                <h1 class="title" style="    font-size: 35px;
+    line-height: 43px;">CRAFTING LUXURY WEDDINGS ACROSS THE INDIA FOR OVER ELEVEN <br>YEARS.</h1>
                                             </div>
                                             <div class="title-desc">
                                                 <p class="mt-5" style="font-size: 0.79rem;font-weight: 500;letter-spacing: 0.21em;line-height: 2.2;text-transform: uppercase;">Available anywhere the wedding takes you<br>Based in the agra
